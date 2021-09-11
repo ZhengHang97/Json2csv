@@ -1,0 +1,1081 @@
+MEANINGFUL_COMPARISON,comments
+2,"This paper improves significantly upon the original NPI work, showing that the model generalizes far better when trained on traces in recursive form. The authors show better sample complexity and generalization results for addition and bubblesort programs, and add two new and more interesting tasks - topological sort and quicksort (added based on reviewer discussion). Furthermore, they actually *prove* that the algorithms learned by the model generalize perfectly, which to my knowledge is the first time this has been done in neural program induction."
+2,"This paper improves significantly upon the original NPI work, showing that the model generalizes far better when trained on traces in recursive form. The authors show better sample complexity and generalization results for addition and bubblesort programs, and add two new and more interesting tasks - topological sort and quicksort (added based on reviewer discussion). Furthermore, they actually *prove* that the algorithms learned by the model generalize perfectly, which to my knowledge is the first time this has been done in neural program induction."
+1,"This is the most convincing paper on image compression with deep neural networks that I have read so far. The paper is very well written, the use of the rate-distortion theory in the objective fits smoothly in the framework. The paper is compared to a reasonable baseline (JPEG2000, as opposed to previous papers only considering JPEG). I would expect this paper to have a very good impact. 
+
+Yes, please include results on Lena/Barbara/Baboon (sorry, not Gibbons), along with state-of-the-art references with more classical methods such as the one I mentioned in my questions. I think it is important to clearly state how NN compare to best previous methods. From the submitted version, I still don't know how both categories of methods are positioned. "
+1,"This is the most convincing paper on image compression with deep neural networks that I have read so far. The paper is very well written, the use of the rate-distortion theory in the objective fits smoothly in the framework. The paper is compared to a reasonable baseline (JPEG2000, as opposed to previous papers only considering JPEG). I would expect this paper to have a very good impact. 
+
+Yes, please include results on Lena/Barbara/Baboon (sorry, not Gibbons), along with state-of-the-art references with more classical methods such as the one I mentioned in my questions. I think it is important to clearly state how NN compare to best previous methods. From the submitted version, I still don't know how both categories of methods are positioned. "
+3,"This paper makes a valuable contribution to provide a more clear understanding of generative adversarial network (GAN) training procedure. 
+
+With the new insight of the training dynamics of GAN, as well as its variant, the authors reveal the reason that why the gradient is either vanishing in original GAN or unstable in its variant. More importantly, they also provide a way to avoid such difficulties by introducing perturbation. I believe this paper will inspire more principled research in this direction. 
+
+I am very interested in the perturbation trick to avoid the gradient instability and vanishment. In fact, this is quite related to dropout trick in where the perturbation can be viewed as Bernoulli distribution. It will be great if the connection can be discussed.  Besides the theoretical analysis, is there any empirical study to justify this trick? Could you please add some experiments like Fig 2 and 3 for the perturbated GAN for comparison? "
+4,"SUMMARY 
+This paper addresses important questions about the difficulties in training generative adversarial networks. It discusses consequences of using an asymmetric divergence function and sources of instability in training GANs. Then it proposes an alternative using a smoothening approach. 
+
+PROS 
+Theory, good questions, nice answers. 
+Makes an interesting use of concepts form analysis and differential topology. 
+Proposes avenues to avoid instability in GANs. 
+
+CONS 
+A bit too long, technical. Some parts and consequences still need to be further developed (which is perfectly fine for future work). 
+
+MINOR COMMENTS
+
+- Section 2.1 Maybe shorten this section a bit. E.g., move all proofs to the appendix. 
+
+- Section 3 provides a nice, intuitive, simple solution. 
+
+- On page 2 second bullet. This also means that P_g is smaller than the data distribution in some other x, which in turn will make the KL divergence non zero. 
+
+- On page 2, ``for not generating plausibly looking pictures'' should be ``for generating not plausibly looking pictures''.  
+
+- Lemma 1 would also hold in more generality. 
+
+- Theorem 2.1 seems to be basic analysis. (In other words, a reference could spare the proof). 
+
+- In Theorem 2.4, it would be good to remind the reader about p(z). 
+
+- Lemma 2 seems to be basic analysis. (In other words, a reference could spare the proof). 
+Specify the domain of the random variables. 
+
+- relly - > rely 
+
+- Theorem 2.2 the closed manifolds have boundary or not? (already in the questions)
+
+- Corollary 2.1, ``assumptions of Theorem 1.3''. I could not find Theorem 1.3. 
+
+- Theorem 2.5 ``Therefore'' -> `Then'? 
+
+- Theorem 2.6 ``Is a... '' -> `is a' ? 
+
+- The number of the theorems is confusing. 
+"
+3,"This paper makes a valuable contribution to provide a more clear understanding of generative adversarial network (GAN) training procedure. 
+
+With the new insight of the training dynamics of GAN, as well as its variant, the authors reveal the reason that why the gradient is either vanishing in original GAN or unstable in its variant. More importantly, they also provide a way to avoid such difficulties by introducing perturbation. I believe this paper will inspire more principled research in this direction. 
+
+I am very interested in the perturbation trick to avoid the gradient instability and vanishment. In fact, this is quite related to dropout trick in where the perturbation can be viewed as Bernoulli distribution. It will be great if the connection can be discussed.  Besides the theoretical analysis, is there any empirical study to justify this trick? Could you please add some experiments like Fig 2 and 3 for the perturbated GAN for comparison? "
+4,"SUMMARY 
+This paper addresses important questions about the difficulties in training generative adversarial networks. It discusses consequences of using an asymmetric divergence function and sources of instability in training GANs. Then it proposes an alternative using a smoothening approach. 
+
+PROS 
+Theory, good questions, nice answers. 
+Makes an interesting use of concepts form analysis and differential topology. 
+Proposes avenues to avoid instability in GANs. 
+
+CONS 
+A bit too long, technical. Some parts and consequences still need to be further developed (which is perfectly fine for future work). 
+
+MINOR COMMENTS
+
+- Section 2.1 Maybe shorten this section a bit. E.g., move all proofs to the appendix. 
+
+- Section 3 provides a nice, intuitive, simple solution. 
+
+- On page 2 second bullet. This also means that P_g is smaller than the data distribution in some other x, which in turn will make the KL divergence non zero. 
+
+- On page 2, ``for not generating plausibly looking pictures'' should be ``for generating not plausibly looking pictures''.  
+
+- Lemma 1 would also hold in more generality. 
+
+- Theorem 2.1 seems to be basic analysis. (In other words, a reference could spare the proof). 
+
+- In Theorem 2.4, it would be good to remind the reader about p(z). 
+
+- Lemma 2 seems to be basic analysis. (In other words, a reference could spare the proof). 
+Specify the domain of the random variables. 
+
+- relly - > rely 
+
+- Theorem 2.2 the closed manifolds have boundary or not? (already in the questions)
+
+- Corollary 2.1, ``assumptions of Theorem 1.3''. I could not find Theorem 1.3. 
+
+- Theorem 2.5 ``Therefore'' -> `Then'? 
+
+- Theorem 2.6 ``Is a... '' -> `is a' ? 
+
+- The number of the theorems is confusing. 
+"
+2,"This paper presents an on-policy deep RL method with additional auxiliary intrinsic variables. 
+
+- The method is a special case of an universal value function based approach and the authors do cite the correct references. Maybe the biggest claimed technical contribution of this paper is to distill many of the existing ideas to solve 3D navigation problems. I think the contributions should be more clearly stated in the abstract/intro
+
+- I would have liked to see failure modes of this approach. Under what circumstances does the model have problems generalizing to changing goals? There are other conceptual problems -- since this is an on-policy method, there will be catastrophic forgetting if the agent dosen't repeatedly train on goals from the distant past. 
+
+- Since the main contribution of this paper is to integrate several key ideas and show empirical advantage, I would have liked to see results on other domains like Atari (maybe using the ROM as intrinsic variables)
+
+Overall, I think this paper does show clear empirical advantage of using the proposed underlying formulations and experimental insights from this paper might be valuable for future agents"
+2,"This paper presents an on-policy deep RL method with additional auxiliary intrinsic variables. 
+
+- The method is a special case of an universal value function based approach and the authors do cite the correct references. Maybe the biggest claimed technical contribution of this paper is to distill many of the existing ideas to solve 3D navigation problems. I think the contributions should be more clearly stated in the abstract/intro
+
+- I would have liked to see failure modes of this approach. Under what circumstances does the model have problems generalizing to changing goals? There are other conceptual problems -- since this is an on-policy method, there will be catastrophic forgetting if the agent dosen't repeatedly train on goals from the distant past. 
+
+- Since the main contribution of this paper is to integrate several key ideas and show empirical advantage, I would have liked to see results on other domains like Atari (maybe using the ROM as intrinsic variables)
+
+Overall, I think this paper does show clear empirical advantage of using the proposed underlying formulations and experimental insights from this paper might be valuable for future agents"
+1,"The paper presents a new framework to solve the SR problem - amortized MAP inference and adopts a pre-learned affine projection layer to ensure the output is consistent with LR. Also, it proposes three different methods to solve the problem of minimizing cross-entropy. Generally, it is a great paper. However, I still have several comments:
+
+1) The proposed amortized MAP inference is novel and different from the previous SR methods. Combined with GAN, this framework can obtain plausible and good results. Compared with another GAN-based SR methods - Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network, question may arise as to what this new formulation adds to the latest state-of-the-art.
+
+2) Using an affine projection architecture as a constraint, the model do not need any corresponding {HR, LR} image pairs for training. However, when training the affine projection layer, we still need the {HR, LR} image pairs. Does it mean that we merely transfer this training procedure to the training of affine projection?
+
+3) The paper presents many results of the framework, including the results of natural images from ImageNet. Can the author also provide the results of Set5, Set14 or BSD100, which are conventional test dataset for SR, so that we can perform a fair comparison with previous work.
+
+4) I see that the size of the results of nature images presented in this paper are limited to 128*128. Can this framework perform well on images with larger size? Because SR will encounter input with arbitrary size.
+
+5) A normal GAN will have a noise term as a latent space, so that it can be better illustrated as learning a distribution. Do the author try the noise vector?
+
+Overall, this paper provides a new framework for SR with solid theoretical analysis. The idea is novel and the author explore many methods. Though there still exist questions like the necessity and more experiments are needed. I think this work will will provide good inspiration to the community."
+1,"The paper presents a new framework to solve the SR problem - amortized MAP inference and adopts a pre-learned affine projection layer to ensure the output is consistent with LR. Also, it proposes three different methods to solve the problem of minimizing cross-entropy. Generally, it is a great paper. However, I still have several comments:
+
+1) The proposed amortized MAP inference is novel and different from the previous SR methods. Combined with GAN, this framework can obtain plausible and good results. Compared with another GAN-based SR methods - Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network, question may arise as to what this new formulation adds to the latest state-of-the-art.
+
+2) Using an affine projection architecture as a constraint, the model do not need any corresponding {HR, LR} image pairs for training. However, when training the affine projection layer, we still need the {HR, LR} image pairs. Does it mean that we merely transfer this training procedure to the training of affine projection?
+
+3) The paper presents many results of the framework, including the results of natural images from ImageNet. Can the author also provide the results of Set5, Set14 or BSD100, which are conventional test dataset for SR, so that we can perform a fair comparison with previous work.
+
+4) I see that the size of the results of nature images presented in this paper are limited to 128*128. Can this framework perform well on images with larger size? Because SR will encounter input with arbitrary size.
+
+5) A normal GAN will have a noise term as a latent space, so that it can be better illustrated as learning a distribution. Do the author try the noise vector?
+
+Overall, this paper provides a new framework for SR with solid theoretical analysis. The idea is novel and the author explore many methods. Though there still exist questions like the necessity and more experiments are needed. I think this work will will provide good inspiration to the community."
+3,"This paper proposes learning on the fly to represent a dialog as a graph (which acts as the memory), and is first demonstrated on the bAbI tasks. Graph learning is part of the inference process, though there is long term representation learning to learn graph transformation parameters and the encoding of sentences as input to the graph. This seems to be the first implementation of a differentiable memory as graph: it is much more complex than previous approaches like memory networks without significant gain in performance in bAbI tasks, but it is still very preliminary work, and the representation of memory as a graph seems much more powerful than a stack. Clarity is a major issue, but from an initial version that was constructive and better read by a computer than a human, the author proposed a hugely improved later version. This original, technically accurate (within what I understood) and thought provoking paper is worth publishing.
+
+The preliminary results do not tell us yet if the highly complex graph-based differentiable memory has more learning or generalization capacity than other approaches. The performance on the bAbI task is comparable to the best memory networks, but still worse than more traditional rule induction (see "
+3,"This paper proposes learning on the fly to represent a dialog as a graph (which acts as the memory), and is first demonstrated on the bAbI tasks. Graph learning is part of the inference process, though there is long term representation learning to learn graph transformation parameters and the encoding of sentences as input to the graph. This seems to be the first implementation of a differentiable memory as graph: it is much more complex than previous approaches like memory networks without significant gain in performance in bAbI tasks, but it is still very preliminary work, and the representation of memory as a graph seems much more powerful than a stack. Clarity is a major issue, but from an initial version that was constructive and better read by a computer than a human, the author proposed a hugely improved later version. This original, technically accurate (within what I understood) and thought provoking paper is worth publishing.
+
+The preliminary results do not tell us yet if the highly complex graph-based differentiable memory has more learning or generalization capacity than other approaches. The performance on the bAbI task is comparable to the best memory networks, but still worse than more traditional rule induction (see "
+5,"The paper proposes a new way of transferring knowledge.
+I like the idea of transferring attention maps instead of activations.
+However, the experiments don’t show a big improvement compared with knowledge distillation alone and I think more experiments are required in IMAGENET section.
+I would consider updating the score if the authors extend the last section 4.2.2."
+3,"This paper proposes to investigate attention transfers between a teacher and a student network. 
+
+Attention transfer is performed by minimising the l2 distance between the teacher/student attention maps at different layers, in addition to minimising the classification loss and optionally a knowledge distillation term.
+Authors define several activation based attentions (sum of absolute feature values raise at the power p or max of values raised at the power p). They also propose a gradient based attention (derivative of the Loss w.r.t. inputs). 
+
+They evaluate their approaches on several datasets (CIFAR, Cub/Scene, Imagenet) showing that attention transfers  does help improving the student network test performance.  However, the student networks performs worst than the teacher, even with attention.
+
+Few remarks/questions:
+- in section 3 authors  claim that networks with higher accuracy have a higher spatial correlation between the object and the attention map. While Figure 4 is compelling, it would be nice to have quantitative results showing that as well.
+- how did you choose the hyperparameter values, it would be nice to see what is the impact of $\beta$.
+- it would be nice to report teacher train and validation loss in Figure 7 b)
+- from the experiments, it is not clear what at the pros/cons of the different attention maps
+- AT does not lead to better result than the teacher. However, the student networks have less parameters. It would be interesting to characterise the corresponding speed-up. If you keep the same architecture between the student and the teacher, is there any benefit to the attention transfer?
+
+In summary:
+Pros:
+- Clearly written and well motivated.
+- Consistent improvement of the student with attention compared to the student alone.
+Cons:
+- Students have worst performances than the teacher models.
+- It is not clear which attention to use in which case?
+- Somewhat incremental novelty relatively to Fitnet
+"
+5,"The paper proposes a new way of transferring knowledge.
+I like the idea of transferring attention maps instead of activations.
+However, the experiments don’t show a big improvement compared with knowledge distillation alone and I think more experiments are required in IMAGENET section.
+I would consider updating the score if the authors extend the last section 4.2.2."
+3,"This paper proposes to investigate attention transfers between a teacher and a student network. 
+
+Attention transfer is performed by minimising the l2 distance between the teacher/student attention maps at different layers, in addition to minimising the classification loss and optionally a knowledge distillation term.
+Authors define several activation based attentions (sum of absolute feature values raise at the power p or max of values raised at the power p). They also propose a gradient based attention (derivative of the Loss w.r.t. inputs). 
+
+They evaluate their approaches on several datasets (CIFAR, Cub/Scene, Imagenet) showing that attention transfers  does help improving the student network test performance.  However, the student networks performs worst than the teacher, even with attention.
+
+Few remarks/questions:
+- in section 3 authors  claim that networks with higher accuracy have a higher spatial correlation between the object and the attention map. While Figure 4 is compelling, it would be nice to have quantitative results showing that as well.
+- how did you choose the hyperparameter values, it would be nice to see what is the impact of $\beta$.
+- it would be nice to report teacher train and validation loss in Figure 7 b)
+- from the experiments, it is not clear what at the pros/cons of the different attention maps
+- AT does not lead to better result than the teacher. However, the student networks have less parameters. It would be interesting to characterise the corresponding speed-up. If you keep the same architecture between the student and the teacher, is there any benefit to the attention transfer?
+
+In summary:
+Pros:
+- Clearly written and well motivated.
+- Consistent improvement of the student with attention compared to the student alone.
+Cons:
+- Students have worst performances than the teacher models.
+- It is not clear which attention to use in which case?
+- Somewhat incremental novelty relatively to Fitnet
+"
+4,"On one hand this paper is fairly standard in that it uses deep metric learning with a Siamese architecture. On the other, the connections to human perception involving persistence is quite interesting. I'm not an expert in human vision, but the comparison in general and the induced hierarchical groupings in particular seem like something that should interest people in this community. The experimental suite is ok but I was disappointed that it is 100% synthetic. The authors could have used a minimally viable real dataset such as ALOI "
+4,"On one hand this paper is fairly standard in that it uses deep metric learning with a Siamese architecture. On the other, the connections to human perception involving persistence is quite interesting. I'm not an expert in human vision, but the comparison in general and the induced hierarchical groupings in particular seem like something that should interest people in this community. The experimental suite is ok but I was disappointed that it is 100% synthetic. The authors could have used a minimally viable real dataset such as ALOI "
+3,"The framework of Gatys et al. demonstrated that correlation statistics (empirical Gram matrices) of deep feature responses provide an excellent characterisation of visual textures. This paper investigates in detail which kind of deep or shallow networks may work well in this framework. One of the main findings is that that very shallow nets, consisting of a single filter bank with random weights, work surprisingly well, and for simple and regular textures may produce results which are visually superior to complex data-adapted filters such as the ones in networks like VGG-19. More broadly, the paper contains an interesting and informative discussion on the strength and limitations on such methods for texture synthesis.
+
+Figure 4 shows that the optimisation of images with respect to shallow filter banks may result in texture images that have a lower VGG-19 loss than optimising the VGG-19 objective directly. This is imputed to the difficulty of optimising the highly non-linear VGG-19 cost function, which is a reasonable explanation. In the new supplementary material, the authors show that better optimisation results can be obtained by initialising the VGG-19-based optimisation with the shallow network optimisation results, which is a useful complement to the original experiments.
+
+The main limitation of the paper is that it does not systematically compare different methods against a quantifiable objective. It is trivial to define image statistics that would allow to simply generate an exact copy of any reference texture, hence with very good visual quality. Such trivial statistics would also be very shallow. The aim is instead to capture a texture distribution, and measuring how well a method meets this challenge remains an open problem. Hence, while the empirical results seem to confirm the intuition that simple statistics are good enough for texture synthesis both in terms of quality and diversity (when compared to more complex statistics), it is difficult to conclusively confirm that this is the case.
+
+The authors indicate that diversity could be measured in terms of entropy. This is reasonable, but, as they acknowledge in their answers to questions, difficult to do in practice. Furthermore, this would still not account for the other aspect of the problem, namely visual quality. They also suggest to perform a psychophysical assessment, which may be the only practical way of addressing this problem, but deem that to be material for future work.
+
+Overall, since evaluation of image generation is such an hard problem, I think the paper still has sufficient strengths to warrant publication in ICLR. Still, some form of psychophysical assessment would be useful to confirm the intuitions that, at present, can only be obtained by inspecting the figure sin the paper and in the supplementary material.
+
+
+
+"
+3,"The framework of Gatys et al. demonstrated that correlation statistics (empirical Gram matrices) of deep feature responses provide an excellent characterisation of visual textures. This paper investigates in detail which kind of deep or shallow networks may work well in this framework. One of the main findings is that that very shallow nets, consisting of a single filter bank with random weights, work surprisingly well, and for simple and regular textures may produce results which are visually superior to complex data-adapted filters such as the ones in networks like VGG-19. More broadly, the paper contains an interesting and informative discussion on the strength and limitations on such methods for texture synthesis.
+
+Figure 4 shows that the optimisation of images with respect to shallow filter banks may result in texture images that have a lower VGG-19 loss than optimising the VGG-19 objective directly. This is imputed to the difficulty of optimising the highly non-linear VGG-19 cost function, which is a reasonable explanation. In the new supplementary material, the authors show that better optimisation results can be obtained by initialising the VGG-19-based optimisation with the shallow network optimisation results, which is a useful complement to the original experiments.
+
+The main limitation of the paper is that it does not systematically compare different methods against a quantifiable objective. It is trivial to define image statistics that would allow to simply generate an exact copy of any reference texture, hence with very good visual quality. Such trivial statistics would also be very shallow. The aim is instead to capture a texture distribution, and measuring how well a method meets this challenge remains an open problem. Hence, while the empirical results seem to confirm the intuition that simple statistics are good enough for texture synthesis both in terms of quality and diversity (when compared to more complex statistics), it is difficult to conclusively confirm that this is the case.
+
+The authors indicate that diversity could be measured in terms of entropy. This is reasonable, but, as they acknowledge in their answers to questions, difficult to do in practice. Furthermore, this would still not account for the other aspect of the problem, namely visual quality. They also suggest to perform a psychophysical assessment, which may be the only practical way of addressing this problem, but deem that to be material for future work.
+
+Overall, since evaluation of image generation is such an hard problem, I think the paper still has sufficient strengths to warrant publication in ICLR. Still, some form of psychophysical assessment would be useful to confirm the intuitions that, at present, can only be obtained by inspecting the figure sin the paper and in the supplementary material.
+
+
+
+"
+3,"Update: After reading the rebuttal comments and the revised paper, I'm leaving the rating as it was before.
+
+This paper proposes an unsupervised algorithm for transferring samples from one domain to another (related) domain under the constraint that some predefined f returns same result for the input and the result.
+
+Pros:
+1. The paper presents an interesting idea of comparing samples from different domains using a fixed perceptual function f.
+
+2. The proposed method produces visually appealing results on several datasets
+
+3. The authors demonstrate how their approach can be used for domain adaptation and obtain improved results on the SVHN->MNIST task
+
+4. The paper is well-written and easy to read
+
+Cons:
+1. The novelty of the method is relatively minor (I consider f-constancy term as the main contribution)
+
+2. It feels like the proposed approach would break for more dissimilar domains. The method relies on a fixed f which is trained on the source domain. This f can potentially drop information important for obtaining 1) better reconstructions in the target domain  2) more tightly related x and g(f(x)). I think the authors should consider either training all the modules in the model end-to-end or incorporating target samples into the training of f.
+
+3. A single domain adaptation experiment is definitely not enough to consider the proposed method as a universal alternative to the existing DA approaches.
+
+I would also like to point out that using super-resolved outputs as opposed to the actual model’s outputs can produce a false impression of the visual quality of the transferred samples. I’d suggest moving original outputs from the appendix into the main part."
+3,"Update: After reading the rebuttal comments and the revised paper, I'm leaving the rating as it was before.
+
+This paper proposes an unsupervised algorithm for transferring samples from one domain to another (related) domain under the constraint that some predefined f returns same result for the input and the result.
+
+Pros:
+1. The paper presents an interesting idea of comparing samples from different domains using a fixed perceptual function f.
+
+2. The proposed method produces visually appealing results on several datasets
+
+3. The authors demonstrate how their approach can be used for domain adaptation and obtain improved results on the SVHN->MNIST task
+
+4. The paper is well-written and easy to read
+
+Cons:
+1. The novelty of the method is relatively minor (I consider f-constancy term as the main contribution)
+
+2. It feels like the proposed approach would break for more dissimilar domains. The method relies on a fixed f which is trained on the source domain. This f can potentially drop information important for obtaining 1) better reconstructions in the target domain  2) more tightly related x and g(f(x)). I think the authors should consider either training all the modules in the model end-to-end or incorporating target samples into the training of f.
+
+3. A single domain adaptation experiment is definitely not enough to consider the proposed method as a universal alternative to the existing DA approaches.
+
+I would also like to point out that using super-resolved outputs as opposed to the actual model’s outputs can produce a false impression of the visual quality of the transferred samples. I’d suggest moving original outputs from the appendix into the main part."
+3,"This paper combines variational RNN (VRNN) and domain adversarial networks (DANN) for domain adaptation in the sequence modelling domain.  The VRNN is used to learn representations for sequential data, which is the hidden states of the last time step.  The DANN is used to make the representations domain invariant, therefore achieving cross domain adaptation.
+
+Experiments are done on a number of data sets, and the proposed method (VRADA) outperforms baselines including DANN, VFAE and R-DANN on almost all of them.
+
+I don't have questions about the proposed model, the model is quite clear and seems to be a simple combination of VRNN and DANN.  But a few questions came up during the pre-review question phase:
+
+- As the authors have mentioned, DANN in general outperforms MMD based methods, however, the VFAE method which is based on MMD regularization on the representations seems to outperform DANN across the board.  That seems to indicate VRNN + MMD should also be a good combination.
+
+- One baseline the authors showed in the experiments is R-DANN, which is an RNN version of DANN.  There are two differences between R-DANN and VRADA: (1) R-DANN uses deterministic RNN for representation learning, while VRADA uses variational RNN; (2) on target domain R-DANN only optimizes adversarial loss, while VRADA optimizes both adversarial loss and reconstruction loss for feature learning.  It would be good to analyze further where the performance gain comes from."
+3,"This paper combines variational RNN (VRNN) and domain adversarial networks (DANN) for domain adaptation in the sequence modelling domain.  The VRNN is used to learn representations for sequential data, which is the hidden states of the last time step.  The DANN is used to make the representations domain invariant, therefore achieving cross domain adaptation.
+
+Experiments are done on a number of data sets, and the proposed method (VRADA) outperforms baselines including DANN, VFAE and R-DANN on almost all of them.
+
+I don't have questions about the proposed model, the model is quite clear and seems to be a simple combination of VRNN and DANN.  But a few questions came up during the pre-review question phase:
+
+- As the authors have mentioned, DANN in general outperforms MMD based methods, however, the VFAE method which is based on MMD regularization on the representations seems to outperform DANN across the board.  That seems to indicate VRNN + MMD should also be a good combination.
+
+- One baseline the authors showed in the experiments is R-DANN, which is an RNN version of DANN.  There are two differences between R-DANN and VRADA: (1) R-DANN uses deterministic RNN for representation learning, while VRADA uses variational RNN; (2) on target domain R-DANN only optimizes adversarial loss, while VRADA optimizes both adversarial loss and reconstruction loss for feature learning.  It would be good to analyze further where the performance gain comes from."
+5,"The paper presents a learning algorithm for micromanagement of battle scenarios in real-time strategy games. It focuses on a complex sub-problem of the full RTS problem. The assumptions and restrictions made (greedy MDP, distance-based action encoding, etc.) are clear and make sense for this problem.
+
+The main contribution of this paper is the zero-order optimization algorithm and how it is used for structured exploration. This is a nice new application of zero-order optimization meets deep learning for RL, quite well-motivated using similar arguments as DPG. The results show clear wins over vanilla Q-learning and REINFORCE, which is not hard to believe. Although RTS is a very interesting and challenging domain (certainly worthy as a domain of focused research!), it would have been nice to see results on other domains, mainly because it seems that this algorithm could be more generally applicable than just RTS games. Also, evaluation on such a complex domain makes it difficult to predict what other kinds of domains would benefit from this zero-order approach. Maybe the authors could add some text to clarify/motivate this.
+
+There are a few seemingly arbitrary choices that are justified only by ""it worked in practice"". For example, using only the sign of w / Psi_{theta}(s^k, a^k). Again later: ""Also we neglected the argmax operation that chooses the actions"". I suppose this and dividing by t could keep things nicely within or close to [-1,1] ? It might make sense to try truncating/normalizing w/Psi; it seems that much information must be lost when only taking the sign. Also lines such as ""We did not extensively experiment with the structure of the network, but we found the maxpooling and tanh nonlinearity to be particularly important"" and claiming the importance of adagrad over RMSprop without elaboration or providing any details feels somewhat unsatisfactory and leaves the reader wondering why.. e.g. could these only be true in the RTS setup in this paper?
+
+The presentation of the paper can be improved, as some ideas are presented without any context making it unnecessarily confusing. For example, when defining f(\tilde{s}, c) at the top of page 5, the w vector is not explained at all, so the reader is left wondering where it comes from or what its use is. This is explained later, of course, but one sentence on its role here would help contextualize its purpose (maybe refer later to the section where it is described fully). Also page 7: ""because we neglected that a single u is sampled for an entire episode""; actually, no, you did mention this in the text above and it's clear from the pseudo-code too.
+
+""perturbated"" -> ""perturbed""
+
+--- After response period: 
+
+No rebuttal entered, therefore review remains unchanged."
+5,"The paper presents a learning algorithm for micromanagement of battle scenarios in real-time strategy games. It focuses on a complex sub-problem of the full RTS problem. The assumptions and restrictions made (greedy MDP, distance-based action encoding, etc.) are clear and make sense for this problem.
+
+The main contribution of this paper is the zero-order optimization algorithm and how it is used for structured exploration. This is a nice new application of zero-order optimization meets deep learning for RL, quite well-motivated using similar arguments as DPG. The results show clear wins over vanilla Q-learning and REINFORCE, which is not hard to believe. Although RTS is a very interesting and challenging domain (certainly worthy as a domain of focused research!), it would have been nice to see results on other domains, mainly because it seems that this algorithm could be more generally applicable than just RTS games. Also, evaluation on such a complex domain makes it difficult to predict what other kinds of domains would benefit from this zero-order approach. Maybe the authors could add some text to clarify/motivate this.
+
+There are a few seemingly arbitrary choices that are justified only by ""it worked in practice"". For example, using only the sign of w / Psi_{theta}(s^k, a^k). Again later: ""Also we neglected the argmax operation that chooses the actions"". I suppose this and dividing by t could keep things nicely within or close to [-1,1] ? It might make sense to try truncating/normalizing w/Psi; it seems that much information must be lost when only taking the sign. Also lines such as ""We did not extensively experiment with the structure of the network, but we found the maxpooling and tanh nonlinearity to be particularly important"" and claiming the importance of adagrad over RMSprop without elaboration or providing any details feels somewhat unsatisfactory and leaves the reader wondering why.. e.g. could these only be true in the RTS setup in this paper?
+
+The presentation of the paper can be improved, as some ideas are presented without any context making it unnecessarily confusing. For example, when defining f(\tilde{s}, c) at the top of page 5, the w vector is not explained at all, so the reader is left wondering where it comes from or what its use is. This is explained later, of course, but one sentence on its role here would help contextualize its purpose (maybe refer later to the section where it is described fully). Also page 7: ""because we neglected that a single u is sampled for an entire episode""; actually, no, you did mention this in the text above and it's clear from the pseudo-code too.
+
+""perturbated"" -> ""perturbed""
+
+--- After response period: 
+
+No rebuttal entered, therefore review remains unchanged."
+5,"The authors propose a parameterization of CNNs that guarantees equivariance wrt a large family of geometric transformations.
+
+The mathematical analysis is rigorous and the material is very interesting and novel. The paper overall reads well; there is a real effort to explain the math accessibly, though some small improvements could be made.
+
+The theory is general enough to include continuous transformations, although the experiments are restricted to discrete ones. While this could be seen as a negative point, it is justified by the experiments, which show that this set of transformations is powerful enough to yield very good results on CIFAR.
+
+Another form of intertwiner has been studied recently by Lenc & Vedaldi [1]; they have studied equivariance empirically in CNNs, which offers an orthogonal view.
+
+In addition to the recent references on scale/rotation deep networks suggested below, geometric equivariance has been studied extensively in the 2000's; mentioning at least one work would be appropriate. The one that probably comes closest to the proposed method is the work by Reisert [2], who studied steerable filters for invariance and equivariance, using Lie group theory. The difference, of course, is that the focus at the time was on kernel machines rather than CNNs, but many of the tools and theorems are relatable.
+
+
+Some of the notation could be simplified, to make the formulas easier to grasp on a first read:
+
+Working over a lattice Z^d is unnecessarily abstract -- since the inputs are always images, Z^2 would make much of the later math easier to parse. Generalization is straightforward, so I don't think the results lose anything by it; and the authors go back to 2D latices later anyway.
+
+It could be more natural to do away with the layer index l which appears throughout the paper, and have notation for current/next layer instead (e.g. pi and pi'; K and D instead of K_{l+1} and K_l).
+
+In any case I leave it up to the authors to decide whether to include these suggestions on notation, but I urge them to consider them (or other ways to unburden notation).
+
+
+A few minor issues: Some statements would be better supported with an accompanying reference (e.g. ""Explicit formulas exist"" on page 5, the introduction of intertwiners on page 3). Finally, there is a tiny mistake in the Balduzzi & Ghifary reference (some extra information was included as an author name).
+
+[1] Lenc & Vedaldi, ""Understanding image representations by measuring their equivariance and equivalence"", 2015
+[2] Reisert, ""Group integration techniques in pattern analysis: a kernel view"", 2008
+
+"
+5,"The authors propose a parameterization of CNNs that guarantees equivariance wrt a large family of geometric transformations.
+
+The mathematical analysis is rigorous and the material is very interesting and novel. The paper overall reads well; there is a real effort to explain the math accessibly, though some small improvements could be made.
+
+The theory is general enough to include continuous transformations, although the experiments are restricted to discrete ones. While this could be seen as a negative point, it is justified by the experiments, which show that this set of transformations is powerful enough to yield very good results on CIFAR.
+
+Another form of intertwiner has been studied recently by Lenc & Vedaldi [1]; they have studied equivariance empirically in CNNs, which offers an orthogonal view.
+
+In addition to the recent references on scale/rotation deep networks suggested below, geometric equivariance has been studied extensively in the 2000's; mentioning at least one work would be appropriate. The one that probably comes closest to the proposed method is the work by Reisert [2], who studied steerable filters for invariance and equivariance, using Lie group theory. The difference, of course, is that the focus at the time was on kernel machines rather than CNNs, but many of the tools and theorems are relatable.
+
+
+Some of the notation could be simplified, to make the formulas easier to grasp on a first read:
+
+Working over a lattice Z^d is unnecessarily abstract -- since the inputs are always images, Z^2 would make much of the later math easier to parse. Generalization is straightforward, so I don't think the results lose anything by it; and the authors go back to 2D latices later anyway.
+
+It could be more natural to do away with the layer index l which appears throughout the paper, and have notation for current/next layer instead (e.g. pi and pi'; K and D instead of K_{l+1} and K_l).
+
+In any case I leave it up to the authors to decide whether to include these suggestions on notation, but I urge them to consider them (or other ways to unburden notation).
+
+
+A few minor issues: Some statements would be better supported with an accompanying reference (e.g. ""Explicit formulas exist"" on page 5, the introduction of intertwiners on page 3). Finally, there is a tiny mistake in the Balduzzi & Ghifary reference (some extra information was included as an author name).
+
+[1] Lenc & Vedaldi, ""Understanding image representations by measuring their equivariance and equivalence"", 2015
+[2] Reisert, ""Group integration techniques in pattern analysis: a kernel view"", 2008
+
+"
+5,"An interesting architecture that accumulates and continuously corrects mistakes as you see more and more of a video sequence.
+
+Clarity: The video you generated seems very helpful towards understanding the information flow in your network, it would be nice to link to it from the paper.
+
+ ""Our model with hyperparameters optimized for KITTI underperforms the model of Finn et al. (2016), but outperforms the previous state-of-the-art model by Mathieu et al. (2016).""
+
+ It is not clear how different are the train and test sequences at the moment, since standard benchmarks do not really exist for video prediction and each author picks his/her favorite. Underperforming Finn et al 206 at the H3.6m Walking videos is a bit disappointing.
+
+"
+2,"Paper Summary
+This paper proposes an unsupervised learning model in which the network
+predicts what its state would look like at the next time step (at input layer
+and potentially other layers).  When these states are observed, an error signal
+is computed by comparing the predictions and the observations. This error
+signal is fed back into the model. The authors show that this model is able to
+make good predictions on a toy dataset of rotating 3D faces as well as on
+natural videos. They also show that these features help perform supervised
+tasks.
+
+Strengths
+- The model is an interesting embodiment of the idea of predictive coding
+  implemented using a end-to-end backpropable recurrent neural network architecture.
+- The idea of feeding forward an error signal is perhaps not used as widely as it could
+  be, and this work shows a compelling example of using it. 
+- Strong empirical results and relevant comparisons show that the model works well.
+- The authors present a detailed ablative analysis of the proposed model.
+
+Weaknesses
+- The model (esp. in Fig 1) is presented as a generalized predictive model
+  where next step predictions are made at each layer. However, as discovered by
+running the experiments, only the predictions at the input layer are the ones
+that actually matter and the optimal choice seems to be to turn off the error
+signal from the higher layers. While the authors intend to address this in future
+work, I think this point merits some more discussion in the current work, given
+the way this model is presented.
+- The network currently lacks stochasticity and does not model the future as a
+  multimodal distribution (However, this is mentioned as potential future work).
+
+Quality
+The experiments are well-designed and a detailed analysis is provided
+in the appendix.
+
+Clarity
+The paper is well-written and easy to follow.
+
+Originality
+Some deep models have previously been proposed that use predictive coding.
+However, the proposed model is most probably novel in the way it feds back the
+error signal and implements the entire model as a single differentiable
+network.
+
+Significance
+This paper will be of wide interest to the growing set of researchers working
+in unsupervised learning of time series. This helps draw attention to
+predictive coding as an important learning paradigm.
+
+Overall
+Good paper with detailed and well-designed experiments. The idea of feeding
+forward the error signal is not being used as much as it could be in our
+community. This work helps to draw the community's attention to this idea."
+5,"An interesting architecture that accumulates and continuously corrects mistakes as you see more and more of a video sequence.
+
+Clarity: The video you generated seems very helpful towards understanding the information flow in your network, it would be nice to link to it from the paper.
+
+ ""Our model with hyperparameters optimized for KITTI underperforms the model of Finn et al. (2016), but outperforms the previous state-of-the-art model by Mathieu et al. (2016).""
+
+ It is not clear how different are the train and test sequences at the moment, since standard benchmarks do not really exist for video prediction and each author picks his/her favorite. Underperforming Finn et al 206 at the H3.6m Walking videos is a bit disappointing.
+
+"
+2,"Paper Summary
+This paper proposes an unsupervised learning model in which the network
+predicts what its state would look like at the next time step (at input layer
+and potentially other layers).  When these states are observed, an error signal
+is computed by comparing the predictions and the observations. This error
+signal is fed back into the model. The authors show that this model is able to
+make good predictions on a toy dataset of rotating 3D faces as well as on
+natural videos. They also show that these features help perform supervised
+tasks.
+
+Strengths
+- The model is an interesting embodiment of the idea of predictive coding
+  implemented using a end-to-end backpropable recurrent neural network architecture.
+- The idea of feeding forward an error signal is perhaps not used as widely as it could
+  be, and this work shows a compelling example of using it. 
+- Strong empirical results and relevant comparisons show that the model works well.
+- The authors present a detailed ablative analysis of the proposed model.
+
+Weaknesses
+- The model (esp. in Fig 1) is presented as a generalized predictive model
+  where next step predictions are made at each layer. However, as discovered by
+running the experiments, only the predictions at the input layer are the ones
+that actually matter and the optimal choice seems to be to turn off the error
+signal from the higher layers. While the authors intend to address this in future
+work, I think this point merits some more discussion in the current work, given
+the way this model is presented.
+- The network currently lacks stochasticity and does not model the future as a
+  multimodal distribution (However, this is mentioned as potential future work).
+
+Quality
+The experiments are well-designed and a detailed analysis is provided
+in the appendix.
+
+Clarity
+The paper is well-written and easy to follow.
+
+Originality
+Some deep models have previously been proposed that use predictive coding.
+However, the proposed model is most probably novel in the way it feds back the
+error signal and implements the entire model as a single differentiable
+network.
+
+Significance
+This paper will be of wide interest to the growing set of researchers working
+in unsupervised learning of time series. This helps draw attention to
+predictive coding as an important learning paradigm.
+
+Overall
+Good paper with detailed and well-designed experiments. The idea of feeding
+forward the error signal is not being used as much as it could be in our
+community. This work helps to draw the community's attention to this idea."
+2,"The paper presents a method to synthesize string manipulation programs based on a set of input output pairs. The paper focuses on a restricted class of programs based on a simple context free grammar sufficient to solve string manipulation tasks from the FlashFill benchmark. A probabilistic generative model called Recursive-Reverse-Recursive Neural Network (R3NN) is presented that assigns a probability to each program's parse tree after a bottom-up and a top-down pass. Results are presented on a synthetic dataset and a Microsoft Excel benchmark called FlashFill.
+
+The problem of program synthesis is important with a lot of recent interest from the deep learning community. The approach taken in the paper based on parse trees and recursive neural networks seems interesting and promising. However, the model seems too complicated and unclear at several places (details below). On the negative side, the experiments are particularly weak, and the paper does not seem ready for publication based on its experimental results. I was positive about the paper until I realized that the method obtains an accuracy of 38% on FlashFill benchmark when presented with only 5 input-output examples but the performance degrades to 29% when 10 input-output examples are used. This was surprising to the authors too, and they came up with some hypothesis to explain this phenomenon. To me, this is a big problem indicating either a bug in the code or a severe shortcoming of the model. Any model useful for program synthesis needs to be applicable to many input-output examples because most complicated programs require many examples to disambiguate the details of the program.
+
+Given the shortcoming of the experiments, I am not convinced that the paper is ready for publication. Thus, I recommend weak reject. I encourage the authors to address the comments below and resubmit as the general idea seems promising.
+
+More comments:
+
+I am unclear about the model at several places:
+- How is the probability distribution normalized? Given the nature of bottom-up top-down evaluation of the potentials, should one enumerate over different completions of a program and the compare their exponentiated potentials? If so, does this restrict the applicability of the model to long programs as the enumeration of the completions gets prohibitively slow?
+- What if you only use 1 input-output pair for each program instead of 5? Do the results get better?
+- Section 5.1.2 is not clear to me. Can you elaborate by potentially including some examples? Does your input-output representation pre-supposes a fixed number of input-output examples across tasks (e.g. 5 or 10 for all of the tasks)?
+
+Regarding the experiments,
+- Could you present some baseline results on FlashFill benchmark based on previous work?
+- Is your method only applicable to short programs? (based on the choice of 13 for the number of instructions)
+- Does a program considered correct when it is identical to a test program, or is it considered correct when it succeeds on a set of held-out input-output pairs?
+- When using 100 or more program samples, do you report the accuracy of the best program out of 100 (i.e. recall) or do you first filter the programs based on training input-output pairs and then evaluate a program that is selected?
+
+Your paper is well beyond the recommended limit of 8 pages. please consider making it shorter."
+2,"This paper proposes a model that is able to infer a program from input/output example pairs, focusing on a restricted domain-specific language that captures a fairly wide variety of string transformations, similar to that used by Flash Fill in Excel.  The approach is to model successive “extensions” of a program tree conditioned on some embedding of the input/output pairs.  Extension probabilities are computed as a function of leaf and production rule embeddings — one of the main contributions is the so-called “Recursive-Reverse-Recursive Neural Net” which computes a globally aware embedding of a leaf by doing something that looks like belief propagation on a tree (but training this operation in an end-to-end differentiable way).
+
+There are many strong points about this paper.  In contrast with some of the related work in the deep learning community, I can imagine this being used in an actual application in the near future.  The R3NN idea is a good one and the authors motivate it quite well.  Moreover, the authors have explored many variants of this model to understand what works well and what does not.  Finally, the exposition is clear (even if it is a long paper), which made this paper a pleasure to read.  Some weaknesses of this paper: the results are still not super accurate, perhaps because the model has only been trained on small programs but is being asked to infer programs that should be much longer.  And it’s unclear why the authors did not simply train on longer programs…  It also seems that the number of I/O pairs is fixed?  So if I had more I/O pairs, the model might not be able to use those additional pairs (and based on the experiments, more pairs can hurt…).  Overall however, I would certainly like to see this paper accepted at ICLR.
+
+Other miscellaneous comments:
+* Too many e’s in the expansion probability expression — might be better just to write “Softmax”.
+* There is a comment about adding a bidirectional LSTM to process the global leaf representations before calculating scores, but no details are given on how this is done (as far as I can see).
+* The authors claim that using hyperbolic tangent activation functions is important — I’d be interested in some more discussion on this and why something like ReLU would not be good.
+* It’s unclear to me how batching was done in this setting since each program has a different tree topology.  More discussion on this would be appreciated.  Related to this, it would be good to add details on optimization algorithm (SGD?  Adagrad?  Adam?), learning rate schedules and how weights were initialized.  At the moment, the results are not particularly reproducible.
+* In Figure 6 (unsolved benchmarks), it would be great to add the program sizes for these harder examples (i.e., did the approach fail because these benchmarks require long programs?  Or was it some other reason?)
+* There is a missing related work by Piech et al (Learning Program Embeddings…) where the authors trained a recursive neural network (that matched abstract syntax trees for programs submitted to an online course) to predict program output (but did not synthesize programs).
+"
+2,"The paper presents a method to synthesize string manipulation programs based on a set of input output pairs. The paper focuses on a restricted class of programs based on a simple context free grammar sufficient to solve string manipulation tasks from the FlashFill benchmark. A probabilistic generative model called Recursive-Reverse-Recursive Neural Network (R3NN) is presented that assigns a probability to each program's parse tree after a bottom-up and a top-down pass. Results are presented on a synthetic dataset and a Microsoft Excel benchmark called FlashFill.
+
+The problem of program synthesis is important with a lot of recent interest from the deep learning community. The approach taken in the paper based on parse trees and recursive neural networks seems interesting and promising. However, the model seems too complicated and unclear at several places (details below). On the negative side, the experiments are particularly weak, and the paper does not seem ready for publication based on its experimental results. I was positive about the paper until I realized that the method obtains an accuracy of 38% on FlashFill benchmark when presented with only 5 input-output examples but the performance degrades to 29% when 10 input-output examples are used. This was surprising to the authors too, and they came up with some hypothesis to explain this phenomenon. To me, this is a big problem indicating either a bug in the code or a severe shortcoming of the model. Any model useful for program synthesis needs to be applicable to many input-output examples because most complicated programs require many examples to disambiguate the details of the program.
+
+Given the shortcoming of the experiments, I am not convinced that the paper is ready for publication. Thus, I recommend weak reject. I encourage the authors to address the comments below and resubmit as the general idea seems promising.
+
+More comments:
+
+I am unclear about the model at several places:
+- How is the probability distribution normalized? Given the nature of bottom-up top-down evaluation of the potentials, should one enumerate over different completions of a program and the compare their exponentiated potentials? If so, does this restrict the applicability of the model to long programs as the enumeration of the completions gets prohibitively slow?
+- What if you only use 1 input-output pair for each program instead of 5? Do the results get better?
+- Section 5.1.2 is not clear to me. Can you elaborate by potentially including some examples? Does your input-output representation pre-supposes a fixed number of input-output examples across tasks (e.g. 5 or 10 for all of the tasks)?
+
+Regarding the experiments,
+- Could you present some baseline results on FlashFill benchmark based on previous work?
+- Is your method only applicable to short programs? (based on the choice of 13 for the number of instructions)
+- Does a program considered correct when it is identical to a test program, or is it considered correct when it succeeds on a set of held-out input-output pairs?
+- When using 100 or more program samples, do you report the accuracy of the best program out of 100 (i.e. recall) or do you first filter the programs based on training input-output pairs and then evaluate a program that is selected?
+
+Your paper is well beyond the recommended limit of 8 pages. please consider making it shorter."
+2,"This paper proposes a model that is able to infer a program from input/output example pairs, focusing on a restricted domain-specific language that captures a fairly wide variety of string transformations, similar to that used by Flash Fill in Excel.  The approach is to model successive “extensions” of a program tree conditioned on some embedding of the input/output pairs.  Extension probabilities are computed as a function of leaf and production rule embeddings — one of the main contributions is the so-called “Recursive-Reverse-Recursive Neural Net” which computes a globally aware embedding of a leaf by doing something that looks like belief propagation on a tree (but training this operation in an end-to-end differentiable way).
+
+There are many strong points about this paper.  In contrast with some of the related work in the deep learning community, I can imagine this being used in an actual application in the near future.  The R3NN idea is a good one and the authors motivate it quite well.  Moreover, the authors have explored many variants of this model to understand what works well and what does not.  Finally, the exposition is clear (even if it is a long paper), which made this paper a pleasure to read.  Some weaknesses of this paper: the results are still not super accurate, perhaps because the model has only been trained on small programs but is being asked to infer programs that should be much longer.  And it’s unclear why the authors did not simply train on longer programs…  It also seems that the number of I/O pairs is fixed?  So if I had more I/O pairs, the model might not be able to use those additional pairs (and based on the experiments, more pairs can hurt…).  Overall however, I would certainly like to see this paper accepted at ICLR.
+
+Other miscellaneous comments:
+* Too many e’s in the expansion probability expression — might be better just to write “Softmax”.
+* There is a comment about adding a bidirectional LSTM to process the global leaf representations before calculating scores, but no details are given on how this is done (as far as I can see).
+* The authors claim that using hyperbolic tangent activation functions is important — I’d be interested in some more discussion on this and why something like ReLU would not be good.
+* It’s unclear to me how batching was done in this setting since each program has a different tree topology.  More discussion on this would be appreciated.  Related to this, it would be good to add details on optimization algorithm (SGD?  Adagrad?  Adam?), learning rate schedules and how weights were initialized.  At the moment, the results are not particularly reproducible.
+* In Figure 6 (unsolved benchmarks), it would be great to add the program sizes for these harder examples (i.e., did the approach fail because these benchmarks require long programs?  Or was it some other reason?)
+* There is a missing related work by Piech et al (Learning Program Embeddings…) where the authors trained a recursive neural network (that matched abstract syntax trees for programs submitted to an online course) to predict program output (but did not synthesize programs).
+"
+3,"1) Summary
+
+This paper investigates the usefulness of decoupling appearance and motion information for the problem of future frame prediction in natural videos. The method introduces a novel two-stream encoder-decoder architecture, MCNet, consisting of two separate encoders -- a convnet on single frames and a convnet+LSTM on sequences of temporal differences -- followed by combination layers (stacking + convolutions) and a deconvolutional network decoder leveraging also residual connections from the two encoders. The architecture is trained end-to-end using the objective and adversarial training strategy of Mathieu et al.
+
+2) Contributions
+
++ The architecture seems novel and is well motivated. It is also somewhat related to the two-stream networks of Simonyan & Zisserman, which are very effective for real-world action recognition.
++ The qualitative results are numerous, insightful, and very convincing (including quantitatively) on KTH & Weizmann, showing the benefits of decoupling content and motion for simple scenes with periodic motions, as well as the need for residual connections.
+
+3) Suggestions for improvement
+
+Static dataset bias:
+In response to the pre-review concerns about the observed static nature of the qualitative results, the authors added a simple baseline consisting in copying the pixels of the last observed frame. On the one hand, the updated experiments on KTH confirm the good results of the method in these conditions. On the other hand, the fact that this baseline is better than all other methods (not just the authors's) on UCF101 casts some doubts on whether reporting average statistics on UCF101 is insightful enough. Although the authors provide some qualitative analysis pertaining to the quantity of motion, further quantitative analysis seems necessary to validate the performance of this and other methods on future frame prediction. At least, the results on UCF101 should be disambiguated with respect to the type of scene, for instance by measuring the overall quantity of motion (e.g., l2 norm of time differences) and reporting PSNR and SSIM per quartile / decile. Ideally, other realistic datasets than UCF101 should be considered in complement. For instance, the Hollywood 2 dataset of Marszalek et al would be a good candidate, as it focuses on movies and often contains complex actor, camera, and background motions that would make the ""pixel-copying"" baseline very poor. Experiments on video datasets beyond actions, like the KITTI tracking benchmark, would also greatly improve the paper.
+
+Additional recognition experiments:
+As mentioned in pre-review questions, further UCF-101 experiments on action recognition tasks by fine-tuning would also greatly improve the paper. Classifying videos indeed requires learning both appearance and motion features, and the two-stream encoder + combination layers of the MCNet+Res architecture seem particularly adapted, if they indeed allowed for unsupervised pre-trainining of content and motion representations, as postulated by the authors. These experiments would also contribute to dispelling the aforementioned concerns about the static nature of the learned representations.
+
+4) Conclusion
+
+Overall, this paper proposes an interesting architecture for an important problem, but requires additional experiments to substantiate the claims made by the authors. If the authors make the aforementioned additional experiments and the results are convincing, then this paper would be clearly relevant for ICLR.
+
+5) Post-rebuttal final decision
+
+The authors did a significant amount of additional work, following the suggestions made by the reviewers, and providing additional compelling experimental evidence. This makes this one of the most experimentally thorough ones for this problem. I, therefore, increase my rating, and suggest to accept this paper. Good job!"
+3,"1) Summary
+
+This paper investigates the usefulness of decoupling appearance and motion information for the problem of future frame prediction in natural videos. The method introduces a novel two-stream encoder-decoder architecture, MCNet, consisting of two separate encoders -- a convnet on single frames and a convnet+LSTM on sequences of temporal differences -- followed by combination layers (stacking + convolutions) and a deconvolutional network decoder leveraging also residual connections from the two encoders. The architecture is trained end-to-end using the objective and adversarial training strategy of Mathieu et al.
+
+2) Contributions
+
++ The architecture seems novel and is well motivated. It is also somewhat related to the two-stream networks of Simonyan & Zisserman, which are very effective for real-world action recognition.
++ The qualitative results are numerous, insightful, and very convincing (including quantitatively) on KTH & Weizmann, showing the benefits of decoupling content and motion for simple scenes with periodic motions, as well as the need for residual connections.
+
+3) Suggestions for improvement
+
+Static dataset bias:
+In response to the pre-review concerns about the observed static nature of the qualitative results, the authors added a simple baseline consisting in copying the pixels of the last observed frame. On the one hand, the updated experiments on KTH confirm the good results of the method in these conditions. On the other hand, the fact that this baseline is better than all other methods (not just the authors's) on UCF101 casts some doubts on whether reporting average statistics on UCF101 is insightful enough. Although the authors provide some qualitative analysis pertaining to the quantity of motion, further quantitative analysis seems necessary to validate the performance of this and other methods on future frame prediction. At least, the results on UCF101 should be disambiguated with respect to the type of scene, for instance by measuring the overall quantity of motion (e.g., l2 norm of time differences) and reporting PSNR and SSIM per quartile / decile. Ideally, other realistic datasets than UCF101 should be considered in complement. For instance, the Hollywood 2 dataset of Marszalek et al would be a good candidate, as it focuses on movies and often contains complex actor, camera, and background motions that would make the ""pixel-copying"" baseline very poor. Experiments on video datasets beyond actions, like the KITTI tracking benchmark, would also greatly improve the paper.
+
+Additional recognition experiments:
+As mentioned in pre-review questions, further UCF-101 experiments on action recognition tasks by fine-tuning would also greatly improve the paper. Classifying videos indeed requires learning both appearance and motion features, and the two-stream encoder + combination layers of the MCNet+Res architecture seem particularly adapted, if they indeed allowed for unsupervised pre-trainining of content and motion representations, as postulated by the authors. These experiments would also contribute to dispelling the aforementioned concerns about the static nature of the learned representations.
+
+4) Conclusion
+
+Overall, this paper proposes an interesting architecture for an important problem, but requires additional experiments to substantiate the claims made by the authors. If the authors make the aforementioned additional experiments and the results are convincing, then this paper would be clearly relevant for ICLR.
+
+5) Post-rebuttal final decision
+
+The authors did a significant amount of additional work, following the suggestions made by the reviewers, and providing additional compelling experimental evidence. This makes this one of the most experimentally thorough ones for this problem. I, therefore, increase my rating, and suggest to accept this paper. Good job!"
+3,"The authors propose NVI for LDA variants. The authors compare NVI-LDA to standard inference schemes such as CGS and online SVI. The authors also evaluate NVI on a different model ProdLDA (not sure this model has been proposed before in the topic modeling literature though?)
+
+In general, I like the direction of this paper and NVI looks promising for LDA. The experimental results however confound model vs inference which makes it hard to understand the significance of the results. Furthermore, the authors don't discuss hyper-parameter selection which is known to significantly impact performance of topic models. This makes it hard to understand when the proposed method can be expected to work. 
+
+Can you maybe generate synthetic datasets with different Dirichlet distributions and assess when the proposed method recovers the true parameters?
+
+Figure 1: Is this prior or posterior? The text talks about sparsity whereas the y-axis reads ""log p(topic proportions)"" which is a bit confusing.
+
+Section 3.2: it is not clear what you mean by unimodal in softmax basis. Consider a Dirichlet on K-dimensional simplex with concentration parameter alpha/K where alpha<1 makes it multimodal. Isn't the softmax basis still multimodal?
+
+None of the numbers include error bars. Are the results statistically significant?
+
+
+Minor comments:
+
+Last term in equation (3) is not ""error""; reconstruction accuracy or negative reconstruction error perhaps?
+
+The idea of using an inference network is much older, cf. Helmholtz machine. 
+"
+3,"This is an interesting paper on a VAE framework for topic models. The main idea is to train a recognition model for the inference phase which, because of so called “amortized inference” can be much faster than normal inference where inference must be run iteratively for every document. Some comments:
+Eqn 5: I find the notation p(theta(h)|alpha) awkward. Why not P(h|alpha) ?
+The generative model seems agnostic to document length, meaning that the latent variables only generate probabilities over word space. However, the recognition model is happy to radically change the probabilities q(z|x) if the document length changes because the input to q changes. This seems undesirable. Maybe they should normalize the input to the recognition network?
+The ProdLDA model might well be equivalent to exponential family PCA or some variant thereof: "
+3,"The authors propose NVI for LDA variants. The authors compare NVI-LDA to standard inference schemes such as CGS and online SVI. The authors also evaluate NVI on a different model ProdLDA (not sure this model has been proposed before in the topic modeling literature though?)
+
+In general, I like the direction of this paper and NVI looks promising for LDA. The experimental results however confound model vs inference which makes it hard to understand the significance of the results. Furthermore, the authors don't discuss hyper-parameter selection which is known to significantly impact performance of topic models. This makes it hard to understand when the proposed method can be expected to work. 
+
+Can you maybe generate synthetic datasets with different Dirichlet distributions and assess when the proposed method recovers the true parameters?
+
+Figure 1: Is this prior or posterior? The text talks about sparsity whereas the y-axis reads ""log p(topic proportions)"" which is a bit confusing.
+
+Section 3.2: it is not clear what you mean by unimodal in softmax basis. Consider a Dirichlet on K-dimensional simplex with concentration parameter alpha/K where alpha<1 makes it multimodal. Isn't the softmax basis still multimodal?
+
+None of the numbers include error bars. Are the results statistically significant?
+
+
+Minor comments:
+
+Last term in equation (3) is not ""error""; reconstruction accuracy or negative reconstruction error perhaps?
+
+The idea of using an inference network is much older, cf. Helmholtz machine. 
+"
+3,"This is an interesting paper on a VAE framework for topic models. The main idea is to train a recognition model for the inference phase which, because of so called “amortized inference” can be much faster than normal inference where inference must be run iteratively for every document. Some comments:
+Eqn 5: I find the notation p(theta(h)|alpha) awkward. Why not P(h|alpha) ?
+The generative model seems agnostic to document length, meaning that the latent variables only generate probabilities over word space. However, the recognition model is happy to radically change the probabilities q(z|x) if the document length changes because the input to q changes. This seems undesirable. Maybe they should normalize the input to the recognition network?
+The ProdLDA model might well be equivalent to exponential family PCA or some variant thereof: "
+4,"The authors propose transfer learning variants for neural-net-based models, applied to a bunch of NLP tagging tasks.
+
+The field of multi-tasking is huge, and the approaches proposed here do not seem to be very novel in terms of machine learning: parts of a general architecture for NLP are shared, the amount of shared ""layers"" being dependent of the task of interest.
+
+The novelty lies in the type of architecture which is used in the particular setup of NLP tagging tasks.
+
+The experimental results show that the approach seems to work well when there is not much labeled data available (Figure 2). Table 3 show some limited improvement at full scale.
+
+Figure 2 results are debatable though: it seems the authors fixed the architecture size while varying the amount of labeled data; it is very likely that tuning the architecture for each size would have led to better results.
+
+Overall, while the paper reads well, the novelty seems a bit limited and the experimental section seems a bit disappointing."
+4,"The authors propose transfer learning variants for neural-net-based models, applied to a bunch of NLP tagging tasks.
+
+The field of multi-tasking is huge, and the approaches proposed here do not seem to be very novel in terms of machine learning: parts of a general architecture for NLP are shared, the amount of shared ""layers"" being dependent of the task of interest.
+
+The novelty lies in the type of architecture which is used in the particular setup of NLP tagging tasks.
+
+The experimental results show that the approach seems to work well when there is not much labeled data available (Figure 2). Table 3 show some limited improvement at full scale.
+
+Figure 2 results are debatable though: it seems the authors fixed the architecture size while varying the amount of labeled data; it is very likely that tuning the architecture for each size would have led to better results.
+
+Overall, while the paper reads well, the novelty seems a bit limited and the experimental section seems a bit disappointing."
+1,"Authors describe implementation of TensorFlow Fold which allows one to run various computations without modifying computation graph. They achieve this by creating a generic scheduler as a TensorFlow computation graph, which can accept graph description as input and execute it.
+
+They show clear benefits to this approach for tasks where computation changes for each datapoint, such as the case with TreeRNN.
+
+In the experiments, they compare against having static batch (same graph structure repeated many times) and batch size 1.
+
+The reason my score is 7 and not higher is because they do not provide comparison to the main alternative of their method -- someone could create a new TensorFlow graph for each dynamic batch. In other words, instead of using their graph as the scheduling algorithm, one could explicitly create each non-uniform batch as a TensorFlow graph, and run that using standard TensorFlow."
+1,"Authors describe implementation of TensorFlow Fold which allows one to run various computations without modifying computation graph. They achieve this by creating a generic scheduler as a TensorFlow computation graph, which can accept graph description as input and execute it.
+
+They show clear benefits to this approach for tasks where computation changes for each datapoint, such as the case with TreeRNN.
+
+In the experiments, they compare against having static batch (same graph structure repeated many times) and batch size 1.
+
+The reason my score is 7 and not higher is because they do not provide comparison to the main alternative of their method -- someone could create a new TensorFlow graph for each dynamic batch. In other words, instead of using their graph as the scheduling algorithm, one could explicitly create each non-uniform batch as a TensorFlow graph, and run that using standard TensorFlow."
+3,"This paper introduces a reinforcement learning framework for designing a neural network architecture. For each time-step, the agent picks a new layer type with corresponding layer parameters (e.g., #filters). In order to reduce the size of state-action space, they used a small set of design choices.
+
+Strengths:
+- A novel approach for automatic design of neural network architectures.
+- Shows quite promising results on several datasets (MNIST, CIFAR-10).
+
+Weakness:
+- Limited architecture design choices due to many prior assumptions (e.g., a set of possible number of convolution filters, at most 2 fully-connected layers, maximum depth, hard-coded dropout, etc.)
+- The method is demonstrated in tabular Q-learning setting, but it is unclear whether the proposed method would work in a large state-action space.
+
+Overall, this is an interesting and novel approach for neural network architecture design, and it seems to be worth publication despite some weaknesses."
+3,"This paper introduces a reinforcement learning framework for designing a neural network architecture. For each time-step, the agent picks a new layer type with corresponding layer parameters (e.g., #filters). In order to reduce the size of state-action space, they used a small set of design choices.
+
+Strengths:
+- A novel approach for automatic design of neural network architectures.
+- Shows quite promising results on several datasets (MNIST, CIFAR-10).
+
+Weakness:
+- Limited architecture design choices due to many prior assumptions (e.g., a set of possible number of convolution filters, at most 2 fully-connected layers, maximum depth, hard-coded dropout, etc.)
+- The method is demonstrated in tabular Q-learning setting, but it is unclear whether the proposed method would work in a large state-action space.
+
+Overall, this is an interesting and novel approach for neural network architecture design, and it seems to be worth publication despite some weaknesses."
+3,"The paper proposed a novel SampleRNN to directly model waveform signals and achieved better performance both in terms of objective test NLL and subjective A/B tests. 
+
+As mentioned in the discussions, the current status of the paper lack plenty of details in describing their model. Hopefully, this will be addressed in the final version.
+
+The authors attempted to compare with wavenet model, but they didn't manage to get a model better than the baseline LSTM-RNN, which makes all the comparisons to wavenets less convincing. Hence, instead of wasting time and space comparing to wavenet, detailing the proposed model would be better. "
+3,"The paper proposed a novel SampleRNN to directly model waveform signals and achieved better performance both in terms of objective test NLL and subjective A/B tests. 
+
+As mentioned in the discussions, the current status of the paper lack plenty of details in describing their model. Hopefully, this will be addressed in the final version.
+
+The authors attempted to compare with wavenet model, but they didn't manage to get a model better than the baseline LSTM-RNN, which makes all the comparisons to wavenets less convincing. Hence, instead of wasting time and space comparing to wavenet, detailing the proposed model would be better. "
+4,"The paper proposes a method for pruning weights in neural networks during training to obtain sparse solutions. The approach is applied to an RNN-based system which is trained and evaluated on a speech recognition dataset. The results indicate that large savings in test-time computations can be obtained without affecting the task performance too much. In some cases the method can actually improve the evaluation performance.
+
+The experiments are done using a state-of-the-art RNN system and the methodology of those experiments seems sound. I like that the effect of the pruning is investigated for networks of very large sizes. The computational gains are clearly substantial. It is a bit unfortunate that all experiments are done using a private dataset. Even with private training data, it would have been nice to see an evaluation on a known test set like the HUB5 for conversational speech. It would also have been nice to see a comparison with some other pruning approaches given the similarity of the proposed method to the work by Han et al. [2] to verify the relative merit of the proposed pruning scheme. While single-stage training looks more elegant at first sight, it may not save much time if more experiments are needed to find good hyperparameter settings for the threshold adaptation scheme. Finally, the dense baseline would have been more convincing if it involved some model compression tricks like training on the soft targets provided by a bigger network.
+
+Overall, the paper is easy to read. The table and figure captions could be a bit more detailed but they are still clear enough. The discussion of potential future speed-ups of sparse recurrent neural networks and memory savings is interesting but not specific to the proposed pruning algorithm. The paper doesn’t motivate the details of the method very well. It’s not clear to me why the threshold has to ramp up after a certain period time for example. If this is based on preliminary findings, the paper should mention that.
+
+Sparse neural networks have been the subject of research for a long time and this includes recurrent neural networks (e.g., sparse recurrent weight matrices were standard for echo-state networks [1]). The proposed method is also very similar to the work by Han et al. [2], where a threshold is used to prune weights after training, followed by a retraining phase of the remaining weights. While I think that it is certainly more elegant to replace this three stage procedure with a single training phase, the proposed scheme still contains multiple regimes that resemble such a process by first training without pruning followed by pruning at two different rates and finally training without further pruning again. The main novelty of the work would be the application of such a scheme to RNNs, which are typically more tricky to train than feedforward nets.
+
+Improving scalability is an important driving force of the progress in neural network research. While I don’t think the paper presents much novelty in ideas or scientific insight, it does show that weight pruning can be successfully applied to large practical RNN systems without sacrificing much in performance. The fact that this is possible with such a simple heuristic is a result worth sharing.
+
+
+Pros:
+The proposed method is successful at reducing the number of parameters in RNNs substantially without sacrificing too much in performance.
+The experiments are done using a state-of-the-art system for a practical application.
+
+Cons:
+The proposed method is very similar to earlier work and barely novel.
+There is no comparison with other pruning methods.
+The data is private and this prevents others from replicating the results.
+
+
+[1] Jaeger, H. (2001). The “echo state” approach to analyzing and training recurrent neural networks-with an erratum note. Bonn, Germany: German National Research Center for Information Technology GMD Technical Report, 148, 34.
+
+
+[2] Han, Song, Pool, Jeff, Tran, John, and Dally, William J. Learning both weights and connections for efficient neural networks. In Advances in Neural Information Processing Systems, 2015."
+4,"The paper proposes a method for pruning weights in neural networks during training to obtain sparse solutions. The approach is applied to an RNN-based system which is trained and evaluated on a speech recognition dataset. The results indicate that large savings in test-time computations can be obtained without affecting the task performance too much. In some cases the method can actually improve the evaluation performance.
+
+The experiments are done using a state-of-the-art RNN system and the methodology of those experiments seems sound. I like that the effect of the pruning is investigated for networks of very large sizes. The computational gains are clearly substantial. It is a bit unfortunate that all experiments are done using a private dataset. Even with private training data, it would have been nice to see an evaluation on a known test set like the HUB5 for conversational speech. It would also have been nice to see a comparison with some other pruning approaches given the similarity of the proposed method to the work by Han et al. [2] to verify the relative merit of the proposed pruning scheme. While single-stage training looks more elegant at first sight, it may not save much time if more experiments are needed to find good hyperparameter settings for the threshold adaptation scheme. Finally, the dense baseline would have been more convincing if it involved some model compression tricks like training on the soft targets provided by a bigger network.
+
+Overall, the paper is easy to read. The table and figure captions could be a bit more detailed but they are still clear enough. The discussion of potential future speed-ups of sparse recurrent neural networks and memory savings is interesting but not specific to the proposed pruning algorithm. The paper doesn’t motivate the details of the method very well. It’s not clear to me why the threshold has to ramp up after a certain period time for example. If this is based on preliminary findings, the paper should mention that.
+
+Sparse neural networks have been the subject of research for a long time and this includes recurrent neural networks (e.g., sparse recurrent weight matrices were standard for echo-state networks [1]). The proposed method is also very similar to the work by Han et al. [2], where a threshold is used to prune weights after training, followed by a retraining phase of the remaining weights. While I think that it is certainly more elegant to replace this three stage procedure with a single training phase, the proposed scheme still contains multiple regimes that resemble such a process by first training without pruning followed by pruning at two different rates and finally training without further pruning again. The main novelty of the work would be the application of such a scheme to RNNs, which are typically more tricky to train than feedforward nets.
+
+Improving scalability is an important driving force of the progress in neural network research. While I don’t think the paper presents much novelty in ideas or scientific insight, it does show that weight pruning can be successfully applied to large practical RNN systems without sacrificing much in performance. The fact that this is possible with such a simple heuristic is a result worth sharing.
+
+
+Pros:
+The proposed method is successful at reducing the number of parameters in RNNs substantially without sacrificing too much in performance.
+The experiments are done using a state-of-the-art system for a practical application.
+
+Cons:
+The proposed method is very similar to earlier work and barely novel.
+There is no comparison with other pruning methods.
+The data is private and this prevents others from replicating the results.
+
+
+[1] Jaeger, H. (2001). The “echo state” approach to analyzing and training recurrent neural networks-with an erratum note. Bonn, Germany: German National Research Center for Information Technology GMD Technical Report, 148, 34.
+
+
+[2] Han, Song, Pool, Jeff, Tran, John, and Dally, William J. Learning both weights and connections for efficient neural networks. In Advances in Neural Information Processing Systems, 2015."
+2,"This is a solid paper that proposes to endow attention mechanisms with structure (the attention posterior probabilities becoming structured latent variables). Experiments are shown with segmental atention (as in semi-Markov models) and syntactic attention (as in projective dependency parsing), both in a synthetic task (tree transduction) and real world tasks (neural machine translation and natural language inference). There is a small gain in using structured attention over simple attention in the latter tasks. A clear accept.
+
+The paper is very clear, the approach is novel and interesting, and the experiments seem to give a good proof of concept. However, the use of structured attention in neural MT seems doesn't seem to be fully exploited here: segmental attention could be a way of approaching neural phrase-based MT, and syntactic attention offers a way of incorporating latent syntax in MT -- these seem very promising directions. In particular it would be interesting to try to add some (semi-)supervision on these attention mechanisms (e.g. posterior marginals computed by an external parser) to see if that helps learning the attention components of the network, or at least help initializing them. 
+
+This seems to be the first interesting use of the backprop of forward-backward/inside-outside (Stoyanov et al. 2011). As stated in sec 3.3., for general probabilistic models the forward step over structured attention corresponds to the computation of first-order moments (posterior marginals) while the backprop step corresponds to second-order moments (gradients of marginals wrt log-potentials, i.e., Hessian of log-partition function). This extends the applicability of the proposed approach to arbitrary graphical models where these quantities can be computed efficiently. E.g. is there a generalized matrix-tree formula that allows to do backprop for non-projective syntax? On the negative side, I suspect the need for second-order statistics may bring some numerical instability in some problems, caused by the use of the signed log-space field. Was this seen in practice?
+
+Minor comments/typos:
+- last paragraph of sec 1: ""standard attention attention""
+- third paragraph of sec 3.2: ""the on log-potentials""
+- sec 4.1, Results: ""... as it has no information about the source ordering"" -- what do you mean here?"
+2,"The authors propose to extend the “standard” attention mechanism, by extending it to consider a distribution over latent structures (e.g., alignments, syntactic parse trees, etc.). These latent variables are modeled as a graphical model with potentials derived from a neural network.
+
+The paper is well-written and clear to understand. The proposed methods are evaluated on various problems, and in each case the “structured attention” models outperform baseline models (either one without attention, or using simple attention). For the two real-world tasks, the improvements obtained from the proposed approach are relatively small compared to the “simple” attention models, but the techniques are nonetheless interesting.
+
+Main comments:
+1. In the Japanese-English Machine Translation example, the relative difference in performance between the Sigmoid attention model, and the Structured attention model appears to be relatively small. In this case, I’m curious if the authors analyzed the attention alignments to determine whether the structured models resulted in better alignments. In other words, if ground-truth alignments are available for the dataset, or if they can be human-annotated for some test examples, it would be interesting to measure the quality of the alignments in addition to the BLEU metric.
+2. In the final experiment on natural language inference, I thought it was a bit surprising that using pretrained syntactic attention layers did not appear to improve model performance, but instead appear to degrade performance. I was curious if the authors have any hypotheses for why this is the case?
+
+Minor comments:
+1. Typographical error: Equation 1: “p(z | x, q” → “p(z | x, q)”
+2. Section 3.3: “Past work has demonstrated that the techniques necessary for this approach, … ” →  “Past work has demonstrated the techniques necessary for this approach, … ”
+"
+2,"This is a solid paper that proposes to endow attention mechanisms with structure (the attention posterior probabilities becoming structured latent variables). Experiments are shown with segmental atention (as in semi-Markov models) and syntactic attention (as in projective dependency parsing), both in a synthetic task (tree transduction) and real world tasks (neural machine translation and natural language inference). There is a small gain in using structured attention over simple attention in the latter tasks. A clear accept.
+
+The paper is very clear, the approach is novel and interesting, and the experiments seem to give a good proof of concept. However, the use of structured attention in neural MT seems doesn't seem to be fully exploited here: segmental attention could be a way of approaching neural phrase-based MT, and syntactic attention offers a way of incorporating latent syntax in MT -- these seem very promising directions. In particular it would be interesting to try to add some (semi-)supervision on these attention mechanisms (e.g. posterior marginals computed by an external parser) to see if that helps learning the attention components of the network, or at least help initializing them. 
+
+This seems to be the first interesting use of the backprop of forward-backward/inside-outside (Stoyanov et al. 2011). As stated in sec 3.3., for general probabilistic models the forward step over structured attention corresponds to the computation of first-order moments (posterior marginals) while the backprop step corresponds to second-order moments (gradients of marginals wrt log-potentials, i.e., Hessian of log-partition function). This extends the applicability of the proposed approach to arbitrary graphical models where these quantities can be computed efficiently. E.g. is there a generalized matrix-tree formula that allows to do backprop for non-projective syntax? On the negative side, I suspect the need for second-order statistics may bring some numerical instability in some problems, caused by the use of the signed log-space field. Was this seen in practice?
+
+Minor comments/typos:
+- last paragraph of sec 1: ""standard attention attention""
+- third paragraph of sec 3.2: ""the on log-potentials""
+- sec 4.1, Results: ""... as it has no information about the source ordering"" -- what do you mean here?"
+2,"The authors propose to extend the “standard” attention mechanism, by extending it to consider a distribution over latent structures (e.g., alignments, syntactic parse trees, etc.). These latent variables are modeled as a graphical model with potentials derived from a neural network.
+
+The paper is well-written and clear to understand. The proposed methods are evaluated on various problems, and in each case the “structured attention” models outperform baseline models (either one without attention, or using simple attention). For the two real-world tasks, the improvements obtained from the proposed approach are relatively small compared to the “simple” attention models, but the techniques are nonetheless interesting.
+
+Main comments:
+1. In the Japanese-English Machine Translation example, the relative difference in performance between the Sigmoid attention model, and the Structured attention model appears to be relatively small. In this case, I’m curious if the authors analyzed the attention alignments to determine whether the structured models resulted in better alignments. In other words, if ground-truth alignments are available for the dataset, or if they can be human-annotated for some test examples, it would be interesting to measure the quality of the alignments in addition to the BLEU metric.
+2. In the final experiment on natural language inference, I thought it was a bit surprising that using pretrained syntactic attention layers did not appear to improve model performance, but instead appear to degrade performance. I was curious if the authors have any hypotheses for why this is the case?
+
+Minor comments:
+1. Typographical error: Equation 1: “p(z | x, q” → “p(z | x, q)”
+2. Section 3.3: “Past work has demonstrated that the techniques necessary for this approach, … ” →  “Past work has demonstrated the techniques necessary for this approach, … ”
+"
+2,"Paper Summary
+This paper proposes a variant of dropout, applicable to RNNs, in which the state
+of a unit is randomly retained, as opposed to being set to zero. This provides
+noise which gives the regularization effect, but also prevents loss of
+information over time, in fact making it easier to send gradients back because
+they can flow right through the identity connections without attenuation.
+Experiments show that this model works quite well. It is still worse that
+variational dropout on Penn Tree bank language modeling task, but given the
+simplicity of the idea it is likely to become widely useful.
+
+Strengths
+- Simple idea that works well.
+- Detailed experiments help understand the effects of the zoneout probabilities
+  and validate its applicability to different tasks/domains.
+
+Weaknesses
+- Does not beat variational dropout (but maybe better hyper-parameter tuning
+  will help).
+
+Quality
+The experimental design and writeup is high quality.
+
+Clarity
+The paper clear and well written, experimental details seem adequate.
+
+Originality
+The proposed idea is novel.
+
+Significance
+This paper will be of interest to anyone working with RNNs (which is a large
+group of people!).
+
+Minor suggestion-
+- As the authors mention - Zoneout has two things working for it - the noise and
+  the ability to pass gradients back without decay. It might help to tease apart
+the contribution from these two factors. For example, if we use a fixed
+mask over the unrolled network (different at each time step) instead of resampling
+it again for every training case, it would tell us how much help comes from the
+identity connections alone."
+1,"This paper tests zoneout against a variety of datasets - character level, word level, and pMNIST classification - showing applicability in a wide range of scenarios. While zoneout acts as a regularizer to prevent overfitting, it also has similarities to residual connections. The continued analysis of this aspect, including analyzing how the gradient flow improves the given tasks, is of great interest and helps show it as an inherent property of zoneout.
+
+This is a well written paper with a variety of experiments that support the claims. I have also previously used this technique in a recurrent setting and am confident on the positive impact it can have upon tasks. This is likely to become a standard technique used within RNNs across various frameworks."
+2,"Paper Summary
+This paper proposes a variant of dropout, applicable to RNNs, in which the state
+of a unit is randomly retained, as opposed to being set to zero. This provides
+noise which gives the regularization effect, but also prevents loss of
+information over time, in fact making it easier to send gradients back because
+they can flow right through the identity connections without attenuation.
+Experiments show that this model works quite well. It is still worse that
+variational dropout on Penn Tree bank language modeling task, but given the
+simplicity of the idea it is likely to become widely useful.
+
+Strengths
+- Simple idea that works well.
+- Detailed experiments help understand the effects of the zoneout probabilities
+  and validate its applicability to different tasks/domains.
+
+Weaknesses
+- Does not beat variational dropout (but maybe better hyper-parameter tuning
+  will help).
+
+Quality
+The experimental design and writeup is high quality.
+
+Clarity
+The paper clear and well written, experimental details seem adequate.
+
+Originality
+The proposed idea is novel.
+
+Significance
+This paper will be of interest to anyone working with RNNs (which is a large
+group of people!).
+
+Minor suggestion-
+- As the authors mention - Zoneout has two things working for it - the noise and
+  the ability to pass gradients back without decay. It might help to tease apart
+the contribution from these two factors. For example, if we use a fixed
+mask over the unrolled network (different at each time step) instead of resampling
+it again for every training case, it would tell us how much help comes from the
+identity connections alone."
+1,"This paper tests zoneout against a variety of datasets - character level, word level, and pMNIST classification - showing applicability in a wide range of scenarios. While zoneout acts as a regularizer to prevent overfitting, it also has similarities to residual connections. The continued analysis of this aspect, including analyzing how the gradient flow improves the given tasks, is of great interest and helps show it as an inherent property of zoneout.
+
+This is a well written paper with a variety of experiments that support the claims. I have also previously used this technique in a recurrent setting and am confident on the positive impact it can have upon tasks. This is likely to become a standard technique used within RNNs across various frameworks."
+3,"The paper proposes a model for image generation where the back-ground is generated first and then the foreground is pasted in by generating first a foregound mask and corresponding appearance, curving the appearance image using the mask and transforming the mask using predicted affine transform to paste it on top of the image. Using AMTurkers the authors verify their generated images are selected 68% of the time as being more naturally looking than corresponding images from a DC-GAN model that does not use a figure-ground aware image generator.
+
+The segmentations masks learn to depict objects in very constrained datasets (birds) only, thus the method appears limited for general shape datasets, as the authors also argue in the paper. Yet, the architectural contributions have potential merit.
+
+It would be nice to see if multiple layers of foreground (occluding foregrounds) are ever generated with this layered model or it is just figure-ground aware."
+3,"The paper proposes a model for image generation where the back-ground is generated first and then the foreground is pasted in by generating first a foregound mask and corresponding appearance, curving the appearance image using the mask and transforming the mask using predicted affine transform to paste it on top of the image. Using AMTurkers the authors verify their generated images are selected 68% of the time as being more naturally looking than corresponding images from a DC-GAN model that does not use a figure-ground aware image generator.
+
+The segmentations masks learn to depict objects in very constrained datasets (birds) only, thus the method appears limited for general shape datasets, as the authors also argue in the paper. Yet, the architectural contributions have potential merit.
+
+It would be nice to see if multiple layers of foreground (occluding foregrounds) are ever generated with this layered model or it is just figure-ground aware."
+4,"This paper motivates the combination of autoregressive models with Variational Auto-Encoders and how to control the amount the amount of information stored in the latent code. The authors provide state-of-the-art results on MNIST, OMNIGLOT and Caltech-101.
+I find that the insights provided in the paper, e.g. with respect to the effect of having a more powerful decoder on learning the latent code, the bit-back coding, and the lossy decoding are well-written but are not novel.
+The difference between an auto-regressive prior and the inverse auto-regressive posterior is new and interesting though.
+The model presented combines the recent technique of PixelRNN/PixelCNN and Variational Auto-Encoders with Inverse Auto-Regressive Flows, which enables the authors to obtain state-of-the-art results on MNIST, OMNIGLOT and Caltech-101. Given the insights provided in the paper, the authors are also able to control the amount of information contained in the latent code to an extent.
+This paper gather several insight on Variational Auto-Encoders scattered through several publications in a well-written way. From these, the authors are able to obtain state-of-the-art models on small complexity datasets. Larger scale experiments will be necessary."
+4,"This paper motivates the combination of autoregressive models with Variational Auto-Encoders and how to control the amount the amount of information stored in the latent code. The authors provide state-of-the-art results on MNIST, OMNIGLOT and Caltech-101.
+I find that the insights provided in the paper, e.g. with respect to the effect of having a more powerful decoder on learning the latent code, the bit-back coding, and the lossy decoding are well-written but are not novel.
+The difference between an auto-regressive prior and the inverse auto-regressive posterior is new and interesting though.
+The model presented combines the recent technique of PixelRNN/PixelCNN and Variational Auto-Encoders with Inverse Auto-Regressive Flows, which enables the authors to obtain state-of-the-art results on MNIST, OMNIGLOT and Caltech-101. Given the insights provided in the paper, the authors are also able to control the amount of information contained in the latent code to an extent.
+This paper gather several insight on Variational Auto-Encoders scattered through several publications in a well-written way. From these, the authors are able to obtain state-of-the-art models on small complexity datasets. Larger scale experiments will be necessary."
+2,"This paper proposes a variant of a recurrent neural network that has two orthogonal temporal dimensions that can be used as a decoder to generate tree structures (including the topology) in an encoder-decoder setting. The architecture is well motivated and I can see several applications (in addition to what's presented in the paper) that need to generate tree structures given an unstructured data.
+
+One weakness of the paper is the limitation of experiments. IFTTT dataset seems to be an interesting appropriate application, and there is also a synthetic dataset, however it would be more interesting to see more natural language applications with syntactic tree structures. Still, I consider the experiments sufficient as a first step to showcase a novel architecture.
+
+A strength is that the authors experiment with different design decisions when building the topology predictor components of the architecture, about when / how to decide to terminate, as opposed to making a single arbitrary choice.
+
+I see future applications of this architecture and it seems to have interesting directions for future work so I suggest its acceptance as a conference contribution."
+1,"The paper propose DRNN as a neural decoder for tree structures. I like the model architecture since it has two clear improvements over traditional approaches — (1) the information flows in two directions, both from the parent and from siblings, which is desirable in tree structures (2) the model use a probability distribution to model the tree boundary (i.e. the last sibling or the leaf). This avoids the use of special ending symbols which is larger in size and putting more things to learn for the parameters (shared with other symbols).
+
+The authors test the DRNN using the tasks of recovering the synthetic trees and recovering functional programs. The model did better than traditional methods like seq2seq models.
+
+I think the recovering synthetic tree task is not very satisfying for two reasons — (1) the surface form itself already containing some of the topological information which makes the task easier than it should be (2) as we can see from figure 3, when the number of nodes grows (even to a number not very large), the performance of the model drops dramatically, I am not sure if a simple baseline only captures the topological information in the surface string would be much worse than this. And DRNN in this case, seems can’t show its full potentials since the length of the information flow in the model won’t be very long.
+
+I think the experiments are interesting. But I think there are some other tasks which are more difficult and the tree structure information are more important in such tasks. For example, we have the seq2seq parsing model (Vinyals et al, 2014), is it possible to use the DRNN proposed here on the decoder side? I think tasks like this can show more potentials of the DRNN and can be very convincing that model architectures like this are better than traditional alternatives."
+2,"This paper proposes a variant of a recurrent neural network that has two orthogonal temporal dimensions that can be used as a decoder to generate tree structures (including the topology) in an encoder-decoder setting. The architecture is well motivated and I can see several applications (in addition to what's presented in the paper) that need to generate tree structures given an unstructured data.
+
+One weakness of the paper is the limitation of experiments. IFTTT dataset seems to be an interesting appropriate application, and there is also a synthetic dataset, however it would be more interesting to see more natural language applications with syntactic tree structures. Still, I consider the experiments sufficient as a first step to showcase a novel architecture.
+
+A strength is that the authors experiment with different design decisions when building the topology predictor components of the architecture, about when / how to decide to terminate, as opposed to making a single arbitrary choice.
+
+I see future applications of this architecture and it seems to have interesting directions for future work so I suggest its acceptance as a conference contribution."
+1,"The paper propose DRNN as a neural decoder for tree structures. I like the model architecture since it has two clear improvements over traditional approaches — (1) the information flows in two directions, both from the parent and from siblings, which is desirable in tree structures (2) the model use a probability distribution to model the tree boundary (i.e. the last sibling or the leaf). This avoids the use of special ending symbols which is larger in size and putting more things to learn for the parameters (shared with other symbols).
+
+The authors test the DRNN using the tasks of recovering the synthetic trees and recovering functional programs. The model did better than traditional methods like seq2seq models.
+
+I think the recovering synthetic tree task is not very satisfying for two reasons — (1) the surface form itself already containing some of the topological information which makes the task easier than it should be (2) as we can see from figure 3, when the number of nodes grows (even to a number not very large), the performance of the model drops dramatically, I am not sure if a simple baseline only captures the topological information in the surface string would be much worse than this. And DRNN in this case, seems can’t show its full potentials since the length of the information flow in the model won’t be very long.
+
+I think the experiments are interesting. But I think there are some other tasks which are more difficult and the tree structure information are more important in such tasks. For example, we have the seq2seq parsing model (Vinyals et al, 2014), is it possible to use the DRNN proposed here on the decoder side? I think tasks like this can show more potentials of the DRNN and can be very convincing that model architectures like this are better than traditional alternatives."
+3,"In this paper, the authors use a separate introspection neural network to predict the future value of the weights directly from their past history. The introspection network is trained on the parameter progressions collected from training separate set of meta learning models using a typical optimizer, e.g. SGD.  
+
+Pros:
++ The organization is generally very clear
++ Novel meta-learning approach that is different than the previous learning to learn approach
+
+Cons: 
+- The paper will benefit from more thorough experiments on other neural network architectures where the geometry of the parameter space are sufficiently different than CNNs such as fully connected and recurrent neural networks.  
+- Neither MNIST nor CIFAR experimental section explained the architectural details
+- Mini-batch size for the experiments were not included in the paper
+- Comparison with different baseline optimizer such as Adam would be a strong addition or at least explain how the hyper-parameters, such as learning rate and momentum, are chosen for the baseline SGD method. 
+
+Overall, due to the omission of the experimental details in the current revision, it is hard to draw any conclusive insight about the proposed method. "
+3,"In this paper, the authors use a separate introspection neural network to predict the future value of the weights directly from their past history. The introspection network is trained on the parameter progressions collected from training separate set of meta learning models using a typical optimizer, e.g. SGD.  
+
+Pros:
++ The organization is generally very clear
++ Novel meta-learning approach that is different than the previous learning to learn approach
+
+Cons: 
+- The paper will benefit from more thorough experiments on other neural network architectures where the geometry of the parameter space are sufficiently different than CNNs such as fully connected and recurrent neural networks.  
+- Neither MNIST nor CIFAR experimental section explained the architectural details
+- Mini-batch size for the experiments were not included in the paper
+- Comparison with different baseline optimizer such as Adam would be a strong addition or at least explain how the hyper-parameters, such as learning rate and momentum, are chosen for the baseline SGD method. 
+
+Overall, due to the omission of the experimental details in the current revision, it is hard to draw any conclusive insight about the proposed method. "
+1,"This paper introduces the Quasi-Recurrent Neural Network (QRNN) that dramatically limits the computational burden of the temporal transitions in
+sequence data. Briefly (and slightly inaccurately) model starts with the LSTM structure but removes all but the diagonal elements to the transition
+matrices. It also generalizes the connections from lower layers to upper layers to general convolutions in time (the standard LSTM can be though of as a convolution with a receptive field of 1 time-step). 
+
+As discussed by the authors, the model is related to a number of other recent modifications of RNNs, in particular ByteNet and strongly-typed RNNs (T-RNN). In light of these existing models, the novelty of the QRNN is somewhat diminished, however in my opinion their is still sufficient novelty to justify publication.
+
+The authors present a reasonably solid set of empirical results that support the claims of the paper. It does indeed seem that this particular modification of the LSTM warrants attention from others. 
+
+While I feel that the contribution is somewhat incremental, I recommend acceptance. 
+"
+1,"This paper introduces the Quasi-Recurrent Neural Network (QRNN) that dramatically limits the computational burden of the temporal transitions in
+sequence data. Briefly (and slightly inaccurately) model starts with the LSTM structure but removes all but the diagonal elements to the transition
+matrices. It also generalizes the connections from lower layers to upper layers to general convolutions in time (the standard LSTM can be though of as a convolution with a receptive field of 1 time-step). 
+
+As discussed by the authors, the model is related to a number of other recent modifications of RNNs, in particular ByteNet and strongly-typed RNNs (T-RNN). In light of these existing models, the novelty of the QRNN is somewhat diminished, however in my opinion their is still sufficient novelty to justify publication.
+
+The authors present a reasonably solid set of empirical results that support the claims of the paper. It does indeed seem that this particular modification of the LSTM warrants attention from others. 
+
+While I feel that the contribution is somewhat incremental, I recommend acceptance. 
+"
+2,"Paper addresses systematic discrepancies between simulated and real-world policy control domains. Proposed method contains two ideas: 1) training on an ensemble of models in an adversarial fashion to learn policies that are robust to errors and 2) adaptation of the source domain ensemble using data from a (real-world) target domain. 
+
+> Significance
+
+Paper addresses and important and significant problem. The approach taken in addressing it is also interesting 
+
+> Clarity
+
+Paper is well written, but does require domain knowledge to understand. 
+
+My main concerns were well addressed by the rebuttal and corresponding revisions to the paper. "
+2,"Paper addresses systematic discrepancies between simulated and real-world policy control domains. Proposed method contains two ideas: 1) training on an ensemble of models in an adversarial fashion to learn policies that are robust to errors and 2) adaptation of the source domain ensemble using data from a (real-world) target domain. 
+
+> Significance
+
+Paper addresses and important and significant problem. The approach taken in addressing it is also interesting 
+
+> Clarity
+
+Paper is well written, but does require domain knowledge to understand. 
+
+My main concerns were well addressed by the rebuttal and corresponding revisions to the paper. "
+4,"The paper address the problem of detecting if an example is misclassified or out-of-distribution. This is an very important topic and the study provides a good baseline. Although it misses strong novel methods for the task, the study contributes to the community."
+4,"The paper address the problem of detecting if an example is misclassified or out-of-distribution. This is an very important topic and the study provides a good baseline. Although it misses strong novel methods for the task, the study contributes to the community."
+3,"This is an interesting paper about quantized networks that work on temporal difference inputs.  The basic idea is that when a network has only to process differences then this is computational much more efficient specifically with natural video data since large parts of an image would be fairly constant so that the network only has to process the informative sections of the image (video stream). This is of course how the human visual system works, and it is hence of interest even beyond the core machine learning community. 
+
+As an aside, there is a strong community interested in event-based vision such as the group of Tobi Delbrück, and it might be interesting to connect to this community. This might even provide a reference for your comments on page 1.
+
+I guess the biggest novel contribution is that a rounding network can be replaced by a sigma-delta network, but that the order of discretization and summation doe make some difference in the actual processing load. I think I followed the steps and 
+Most of my questions have already been answers in the pre-review period. My only question remaining is on page 3, “It should be noted that when we refer to “temporal differences”, we refer not to the change in the signal over time, but in the change between two inputs presented sequentially. The output of our network only depends on the value and order of inputs, not on the temporal spacing between them.”
+
+This does not make sense to me. As I understand you just take the difference between two frames regardless if you call this temporal or not it is a change in one frame. So this statement rather confuses me and maybe should be dropped unless I do miss something here, in which case some more explanation would be necessary.
+
+Figure 1 should be made bigger.
+
+An improvement of the paper that I could think about is a better discussion of the relevance of the findings. Yes, you do show that your sigma-delta network save some operation compared to threshold, but is this difference essential for a specific task, or does your solution has relevance for neuroscience? "
+3,"This is an interesting paper about quantized networks that work on temporal difference inputs.  The basic idea is that when a network has only to process differences then this is computational much more efficient specifically with natural video data since large parts of an image would be fairly constant so that the network only has to process the informative sections of the image (video stream). This is of course how the human visual system works, and it is hence of interest even beyond the core machine learning community. 
+
+As an aside, there is a strong community interested in event-based vision such as the group of Tobi Delbrück, and it might be interesting to connect to this community. This might even provide a reference for your comments on page 1.
+
+I guess the biggest novel contribution is that a rounding network can be replaced by a sigma-delta network, but that the order of discretization and summation doe make some difference in the actual processing load. I think I followed the steps and 
+Most of my questions have already been answers in the pre-review period. My only question remaining is on page 3, “It should be noted that when we refer to “temporal differences”, we refer not to the change in the signal over time, but in the change between two inputs presented sequentially. The output of our network only depends on the value and order of inputs, not on the temporal spacing between them.”
+
+This does not make sense to me. As I understand you just take the difference between two frames regardless if you call this temporal or not it is a change in one frame. So this statement rather confuses me and maybe should be dropped unless I do miss something here, in which case some more explanation would be necessary.
+
+Figure 1 should be made bigger.
+
+An improvement of the paper that I could think about is a better discussion of the relevance of the findings. Yes, you do show that your sigma-delta network save some operation compared to threshold, but is this difference essential for a specific task, or does your solution has relevance for neuroscience? "
+3,"This paper introduces a model that blends ideas from generative topic models with those from recurrent neural network language models. The authors evaluate the proposed approach on a document level classification benchmark as well as a language modeling benchmark and it seems to work well. There is also some analysis as to topics learned by the model and its ability to generate text. Overall the paper is clearly written and with the code promised by the authors others should be able to re-implement the approach. I have 2 potentially major questions I would ask the authors to address:
+
+1 - LDA topic models make an exchangability (bag of words) assumption. The discussion of the generative story for TopicRNN should explicitly discuss whether this assumption is also made. On the surface it appears it is since y_t is sampled using only the document topic vector and h_t but we know that in practice h_t comes from a recurrent model that observes y_t-1. Not clear how this clean exposition of the generative model relates to what is actually done. In the Generating sequential text section it’s clear the topic model can’t generate words without using y_1 - t-1 but this seems inconsistent with the generative model specification. This needs to be shown in the paper and made clear to have a complete paper.
+
+
+2 -  The topic model only allows for linear interactions of the topic vector theta. It seems like this might be required to keep the generative model tractable but seems like a very poor assumption. We would expect the topic representation to have rich interactions with a language model to create nonlinear adjustments to word probabilities for a document. Please add discussion as to why this modeling choice exists and if possible how future work could modify that assumption (or explain why it’s not such a bad assumption as one might imagine)
+
+
+
+
+Figure 2 colors very difficult to distinguish. "
+3,"This paper introduces a model that blends ideas from generative topic models with those from recurrent neural network language models. The authors evaluate the proposed approach on a document level classification benchmark as well as a language modeling benchmark and it seems to work well. There is also some analysis as to topics learned by the model and its ability to generate text. Overall the paper is clearly written and with the code promised by the authors others should be able to re-implement the approach. I have 2 potentially major questions I would ask the authors to address:
+
+1 - LDA topic models make an exchangability (bag of words) assumption. The discussion of the generative story for TopicRNN should explicitly discuss whether this assumption is also made. On the surface it appears it is since y_t is sampled using only the document topic vector and h_t but we know that in practice h_t comes from a recurrent model that observes y_t-1. Not clear how this clean exposition of the generative model relates to what is actually done. In the Generating sequential text section it’s clear the topic model can’t generate words without using y_1 - t-1 but this seems inconsistent with the generative model specification. This needs to be shown in the paper and made clear to have a complete paper.
+
+
+2 -  The topic model only allows for linear interactions of the topic vector theta. It seems like this might be required to keep the generative model tractable but seems like a very poor assumption. We would expect the topic representation to have rich interactions with a language model to create nonlinear adjustments to word probabilities for a document. Please add discussion as to why this modeling choice exists and if possible how future work could modify that assumption (or explain why it’s not such a bad assumption as one might imagine)
+
+
+
+
+Figure 2 colors very difficult to distinguish. "
+1,"This paper explores a variety of memory augmented architectures (key, key-value, key-predict-value) and additionally simpler near memory-less RNN architectures. Using an attention model that has access to the various decompositions is an interesting idea and one worth future explorations, potentially in different tasks where this type of model could excel even more. The results over the Wikipedia corpus are interesting and feature a wide variety of different model types. This is where the models suggested in the paper are strongest. The same models run over the CBT dataset show a comparable but less convincing demonstration of the variations between the models.
+
+The authors also released their Wikipedia corpus already. Having inspected it I consider it a positive and interesting contribution. I still believe that, if a model was found that could better handle longer term dependencies, it would do better on this Wikipedia dataset, but at least within the realm of what . As an example, the first article in train.txt is about a person named ""George Abbot"", yet ""Abbot"" isn't mentioned again until the next sentence 40 tokens later, and then the next ""Abbot"" is 15 tokens from there. Most gaps between occurrences of ""Abbot"" are dozens of timesteps. Performing an analysis based upon easily accessed information, such as when the same token reappears again or average sentence length, may be useful as an approximation for the length that an attention window may prefer.
+
+This is a well explained paper that raises interesting questions regarding the spans used in existing language modeling approaches and serves as a potential springboard for future directions."
+1,"This paper explores a variety of memory augmented architectures (key, key-value, key-predict-value) and additionally simpler near memory-less RNN architectures. Using an attention model that has access to the various decompositions is an interesting idea and one worth future explorations, potentially in different tasks where this type of model could excel even more. The results over the Wikipedia corpus are interesting and feature a wide variety of different model types. This is where the models suggested in the paper are strongest. The same models run over the CBT dataset show a comparable but less convincing demonstration of the variations between the models.
+
+The authors also released their Wikipedia corpus already. Having inspected it I consider it a positive and interesting contribution. I still believe that, if a model was found that could better handle longer term dependencies, it would do better on this Wikipedia dataset, but at least within the realm of what . As an example, the first article in train.txt is about a person named ""George Abbot"", yet ""Abbot"" isn't mentioned again until the next sentence 40 tokens later, and then the next ""Abbot"" is 15 tokens from there. Most gaps between occurrences of ""Abbot"" are dozens of timesteps. Performing an analysis based upon easily accessed information, such as when the same token reappears again or average sentence length, may be useful as an approximation for the length that an attention window may prefer.
+
+This is a well explained paper that raises interesting questions regarding the spans used in existing language modeling approaches and serves as a potential springboard for future directions."
+3,"This work brings multiple discriminators into GAN. From the result, multiple discriminators is useful for stabilizing. 
+
+The main problem of stabilizing seems is from gradient signal from discriminator, the authors motivation is using multiple discriminators to reduce this effect.
+
+I think this work indicates the direction is promising, however I think the authors may consider to add more result vs approach which enforce discriminator gradient, such as GAN with DAE (Improving Generative Adversarial Networks with Denoising Feature Matching), to show advantages of multiple discriminators."
+3,"This work brings multiple discriminators into GAN. From the result, multiple discriminators is useful for stabilizing. 
+
+The main problem of stabilizing seems is from gradient signal from discriminator, the authors motivation is using multiple discriminators to reduce this effect.
+
+I think this work indicates the direction is promising, however I think the authors may consider to add more result vs approach which enforce discriminator gradient, such as GAN with DAE (Improving Generative Adversarial Networks with Denoising Feature Matching), to show advantages of multiple discriminators."
